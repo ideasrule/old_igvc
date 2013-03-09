@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/include
+END
+PGRFlyCaptureStereo.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/include/PGRFlyCaptureStereo.h
+END
+PGRFlyCapturePlus.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/include/PGRFlyCapturePlus.h
+END
+pgrflycapturegui.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/include/pgrflycapturegui.h
+END
+pgrerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/include/pgrerror.h
+END
+PGRFlyCaptureMessaging.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/include/PGRFlyCaptureMessaging.h
+END
+pgrcameragui.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/include/pgrcameragui.h
+END
+PGRFlyCapture.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/include/PGRFlyCapture.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/python
+END
+svmutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/python/svmutil.py
+END
+svm.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/python/svm.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/python/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/python/README
+END

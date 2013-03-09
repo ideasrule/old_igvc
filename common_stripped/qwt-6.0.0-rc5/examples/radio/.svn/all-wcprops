@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/radio
+END
+radio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/radio/radio.cpp
+END
+ampfrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/radio/ampfrm.cpp
+END
+tunerfrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/radio/tunerfrm.cpp
+END
+radio.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/radio/radio.h
+END
+ampfrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/radio/ampfrm.h
+END
+tunerfrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/radio/tunerfrm.h
+END
+radio.pro
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/radio/radio.pro
+END

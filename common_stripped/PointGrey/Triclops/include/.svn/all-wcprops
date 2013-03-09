@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include
+END
+triclopsbuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/triclopsbuffer.h
+END
+triclopsimageio.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/triclopsimageio.h
+END
+triclopsint.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/triclopsint.h
+END
+triclopsvalidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/triclopsvalidation.h
+END
+pgrpnmio.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/pgrpnmio.h
+END
+pnmutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/pnmutils.h
+END
+triclops.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/triclops.h
+END
+triclopsstereo.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/triclopsstereo.h
+END
+triclopscontext.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/triclopscontext.h
+END
+triclopsrectify.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/triclopsrectify.h
+END
+triclops3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/include/triclops3d.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/convertimage16
+END
+convertimage16.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/convertimage16/convertimage16.dsp
+END
+convertimage16.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/convertimage16/convertimage16.cpp
+END
+convertimage16.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/convertimage16/convertimage16.vcproj
+END

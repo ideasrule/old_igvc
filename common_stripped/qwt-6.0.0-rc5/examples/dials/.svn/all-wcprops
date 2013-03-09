@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials
+END
+attitude_indicator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/attitude_indicator.cpp
+END
+compass_grid.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/compass_grid.h
+END
+speedo_meter.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/speedo_meter.h
+END
+cockpit_grid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/cockpit_grid.cpp
+END
+attitude_indicator.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/attitude_indicator.h
+END
+cockpit_grid.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/cockpit_grid.h
+END
+compass_grid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/compass_grid.cpp
+END
+dials.pro
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/dials.pro
+END
+speedo_meter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/speedo_meter.cpp
+END
+dials.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/dials/dials.cpp
+END

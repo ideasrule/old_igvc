@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/java
+END
+svm_predict.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/java/svm_predict.java
+END
+svm_toy.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/java/svm_toy.java
+END
+svm_train.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/java/svm_train.java
+END
+libsvm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/java/libsvm.jar
+END
+test_applet.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/java/test_applet.html
+END
+svm_scale.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/java/svm_scale.java
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/java/Makefile
+END

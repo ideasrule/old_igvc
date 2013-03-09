@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/PAVE/!svn/ver/926/Common/trunk/Libraries/Newmat
+END
+myexcept.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/myexcept.cpp
+END
+newmatrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmatrm.h
+END
+bandmat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/bandmat.cpp
+END
+tmt.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/tmt.h
+END
+newmatap.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmatap.h
+END
+cholesky.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/cholesky.cpp
+END
+evalue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/evalue.cpp
+END
+solution.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/solution.h
+END
+precisio.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/precisio.h
+END
+newmatnl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmatnl.cpp
+END
+sort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/sort.cpp
+END
+newmatio.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmatio.h
+END
+newfft.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newfft.cpp
+END
+newmatrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmatrm.cpp
+END
+newmat.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat.h
+END
+Newmat.pri
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/Newmat.pri
+END
+myexcept.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/myexcept.h
+END
+Newmat.pro
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/877/Common/trunk/Libraries/Newmat/Newmat.pro
+END
+controlw.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/controlw.h
+END
+newmat1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat1.cpp
+END
+solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/solution.cpp
+END
+newmat2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat2.cpp
+END
+newmat3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat3.cpp
+END
+newmat4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat4.cpp
+END
+fft.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/fft.cpp
+END
+newmat5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat5.cpp
+END
+newmat6.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat6.cpp
+END
+newmat7.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat7.cpp
+END
+newmat8.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat8.cpp
+END
+newmat9.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmat9.cpp
+END
+nm_misc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/nm_misc.cpp
+END
+newmatrc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmatrc.h
+END
+hholder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/hholder.cpp
+END
+jacobi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/jacobi.cpp
+END
+newmatex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmatex.cpp
+END
+include.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/include.h
+END
+newmatnl.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/newmatnl.h
+END
+submat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/submat.cpp
+END
+svd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Newmat/svd.cpp
+END

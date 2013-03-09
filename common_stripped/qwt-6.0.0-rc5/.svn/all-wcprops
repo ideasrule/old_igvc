@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/PAVE/!svn/ver/935/Common/trunk/qwt-6.0.0-rc5
+END
+qwt.prf
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/qwt.prf
+END
+build-qwt-2008.bat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/PAVE/!svn/ver/935/Common/trunk/qwt-6.0.0-rc5/build-qwt-2008.bat
+END
+qwtbuild.pri
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/qwtbuild.pri
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/INSTALL
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/CHANGES
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/COPYING
+END
+qwt.pro
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/qwt.pro
+END
+qwtconfig.pri
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/qwtconfig.pri
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/README
+END
+build-qwt.bat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/935/Common/trunk/qwt-6.0.0-rc5/build-qwt.bat
+END

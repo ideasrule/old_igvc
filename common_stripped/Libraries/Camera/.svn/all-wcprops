@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/PAVE/!svn/ver/954/Common/trunk/Libraries/Camera
+END
+Frame.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/875/Common/trunk/Libraries/Camera/Frame.h
+END
+Camera.pri
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/795/Common/trunk/Libraries/Camera/Camera.pri
+END
+CameraTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/PAVE/!svn/ver/447/Common/trunk/Libraries/Camera/CameraTypes.h
+END
+TimeUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/447/Common/trunk/Libraries/Camera/TimeUtils.h
+END
+Camera.pro
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/870/Common/trunk/Libraries/Camera/Camera.pro
+END
+CameraVidere.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/PAVE/!svn/ver/875/Common/trunk/Libraries/Camera/CameraVidere.cpp
+END
+Image.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/567/Common/trunk/Libraries/Camera/Image.h
+END
+Camera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/561/Common/trunk/Libraries/Camera/Camera.cpp
+END
+CameraLive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/PAVE/!svn/ver/447/Common/trunk/Libraries/Camera/CameraLive.cpp
+END
+Frame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/PAVE/!svn/ver/875/Common/trunk/Libraries/Camera/Frame.cpp
+END
+CameraFiles.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/PAVE/!svn/ver/447/Common/trunk/Libraries/Camera/CameraFiles.cpp
+END
+CameraTriclopsMethods.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/PAVE/!svn/ver/447/Common/trunk/Libraries/Camera/CameraTriclopsMethods.cpp
+END
+Camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/PAVE/!svn/ver/661/Common/trunk/Libraries/Camera/Camera.h
+END

@@ -1,0 +1,103 @@
+;=============================================================================
+; Copyright © 2004 Point Grey Research, Inc. All Rights Reserved.
+; 
+; This software is the confidential and proprietary information of Point
+; Grey Research, Inc. ("Confidential Information").  You shall not
+; disclose such Confidential Information and shall use it only in
+; accordance with the terms of the license agreement you entered into
+; with PGR.
+; 
+; PGR MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF THE
+; SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+; IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+; PURPOSE, OR NON-INFRINGEMENT. PGR SHALL NOT BE LIABLE FOR ANY DAMAGES
+; SUFFERED BY LICENSEE AS A RESULT OF USING, MODIFYING OR DISTRIBUTING
+; THIS SOFTWARE OR ITS DERIVATIVES.
+;=============================================================================
+
+;=============================================================================
+; PGRCAM.INF -- PGR Camera Device .inf for Windows NT, 
+; Windows 2000 and Windows XP
+; Copyright 2005 Point Grey Research Inc.
+;=============================================================================
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=PGRDevices
+ClassGUID={1354185D-3C13-4b72-BFF9-9EA802513D34}
+Provider=%PGR%
+DriverVer = 01/01/2003, 1.1.0.0
+
+[SourceDisksNames]
+1 = "Installation Disk # 1",,,""
+
+[SourceDisksFiles]
+pgrsync.sys  = 1,,
+
+[DestinationDirs]
+defaultdestdir=11
+PGRSYNC.CopyDriver=10,system32\drivers
+PGRSYNC.CopyDll=11
+
+; =================== Class Sections ===========================
+[ClassInstall32]
+Addreg=PGRSYNCClassReg
+
+
+[PGRSYNCClassReg]
+;reg-root,[subkey],[value-entry-name],[flags],[value]
+HKR,,,%REG_SZ%,%PGRCAMClassName%
+HKR,,Icon,,-21
+;HKR,,DeviceCharacteristics,%REG_DWORD%,0x100                    ; FILE_DEVICE_SECURE_OPEN
+;HKR,,Security,,"D:P(A;;GR;;;WD)(A;;GA;;;SY)(A;;GA;;;BA)"        ; generic read - everybody
+
+; =================== Table of content =========================
+
+[Manufacturer]
+%PointGreyResearchMfg%=PointGreyResearch,NTamd64
+
+; =================== Point Grey Research ========================
+
+[PointGreyResearch]
+%1394\PGR&PGRCAM.DeviceDesc%=PGRSYNC,1394\Point_Grey_Research&Camera_Synchronizer
+
+[PointGreyResearch.NTamd64]
+%1394\PGR&PGRCAM.DeviceDesc%=PGRSYNC,1394\Point_Grey_Research&Camera_Synchronizer
+
+;=================================================================
+;=========== Camera Synchronizer =================================
+;=================================================================
+
+
+[PGRSYNC.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,pgrsync.sys
+
+[PGRSYNC.NT]
+AddReg=PGRSYNC.AddReg
+CopyFiles=PGRSYNC.CopyDriver,PGRSYNC.CopyDll
+
+[PGRSYNC.NT.Services]
+AddService=PGRSYNC,2,PGRSYNC_ServiceInstall
+
+[PGRSYNC_ServiceInstall]
+DisplayName=%1394\PGR&PGRCAM.DeviceDesc%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\pgrsync.sys
+
+[PGRSYNC.CopyDriver]
+pgrsync.sys
+
+[PGRSYNC.CopyDll]
+
+
+[Strings]
+PGR="Point Grey Research"
+PGRCAMClassName="Point Grey Research Devices"
+PointGreyResearchMfg="Point Grey Research Inc."
+1394\PGR&PGRCAM.DeviceDesc="Point Grey Research Camera Synchronizer"
+
+REG_SZ                      = 0x00000000
+REG_DWORD                   = 0x00010001

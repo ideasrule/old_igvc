@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SaveToAviEx
+END
+StdAfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SaveToAviEx/StdAfx.h
+END
+SaveToAviEx.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SaveToAviEx/SaveToAviEx.vcproj
+END
+SaveToAviEx.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SaveToAviEx/SaveToAviEx.dsp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SaveToAviEx/main.cpp
+END
+PGRAviFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SaveToAviEx/PGRAviFile.cpp
+END
+SaveToAviEx.sln
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SaveToAviEx/SaveToAviEx.sln
+END
+SaveToAviEx.dsw
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SaveToAviEx/SaveToAviEx.dsw
+END
+PGRAviFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SaveToAviEx/PGRAviFile.h
+END

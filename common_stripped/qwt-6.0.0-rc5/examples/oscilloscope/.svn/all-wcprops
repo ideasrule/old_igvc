@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope
+END
+knob.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/knob.h
+END
+samplingthread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/samplingthread.cpp
+END
+signaldata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/signaldata.cpp
+END
+samplingthread.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/samplingthread.h
+END
+signaldata.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/signaldata.h
+END
+oscilloscope.pro
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/oscilloscope.pro
+END
+mainwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/mainwindow.cpp
+END
+wheelbox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/wheelbox.cpp
+END
+plot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/plot.cpp
+END
+curvedata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/curvedata.cpp
+END
+mainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/mainwindow.h
+END
+wheelbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/wheelbox.h
+END
+plot.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/plot.h
+END
+curvedata.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/curvedata.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/main.cpp
+END
+knob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/oscilloscope/knob.cpp
+END

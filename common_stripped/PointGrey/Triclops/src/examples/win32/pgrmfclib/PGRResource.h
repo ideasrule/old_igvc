@@ -1,0 +1,119 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by PGRResource.rc
+//
+#define PGRRES_TRANSFORMDIALOG          1
+#define IDB_BITMAP_BLUE                 3
+#define IDB_BITMAP_YELLOW               7
+#define IDB_BITMAP_RED                  8
+#define PGRRES_PLEASE_WAIT_DIALOG       8
+#define IDB_BITMAP_MAGENTA              9
+#define IDB_BITMAP_GREEN                11
+#define PGRRES_STEREO_DIALOGBAR         6567
+#define PGRRES_MENU_STEREO              6568
+#define PGRRES_STEREO_CONTROL_DIALOG    6569
+#define PGRRES_CHECK_CAMERA_CONTROL     7201
+#define PGRRES_CHECK_STEREO             7202
+#define PGRRES_CHECK_GRAB               7203
+#define PGRRES_CHECK_POINTS             7204
+#define IDC_XSLIDER                     7205
+#define IDC_YSLIDER                     7206
+#define IDC_ZSLIDER                     7207
+#define IDC_ROLLSLIDER                  7208
+#define IDC_PITCHSLIDER                 7209
+#define IDC_YAWSLIDER                   7210
+#define IDC_XEDIT                       7211
+#define IDC_YEDIT                       7217
+#define IDC_ZEDIT                       7218
+#define IDC_ROLLEDIT                    7219
+#define IDC_PITCHEDIT                   7220
+#define IDC_YAWEDIT                     7221
+#define IDC_A0EDIT                      7222
+#define IDC_A1EDIT                      7223
+#define IDC_A3EDIT                      7224
+#define IDC_A2EDIT                      7225
+#define IDC_B0EDIT                      7234
+#define IDC_B1EDIT                      7235
+#define IDC_BEDIT3                      7236
+#define IDC_B2EDIT                      7237
+#define IDC_C0EDIT                      7238
+#define IDC_C1EDIT                      7239
+#define IDC_C3EDIT                      7240
+#define IDC_C2EDIT                      7241
+#define IDC_D0EDIT                      7242
+#define IDC_D1EDIT                      7243
+#define IDC_D3EDIT                      7244
+#define IDC_D2EDIT                      7245
+#define PGRRES_160x120                  8930
+#define PGRRES_RAW_IMAGE                8931
+#define PGRRES_RECTIFIED_IMAGE          8932
+#define PGRRES_EDGE_IMAGE               8933
+#define PGRRES_DISPARITY_IMAGE          8934
+#define PGRRES_320x240                  8935
+#define PGRRES_640x480                  8936
+#define PGRRES_1024x768                 8937
+#define PGRRES_DISPLAY_POINTCLOUD       8938
+#define PGRRES_CAMERA_CENTER            8939
+#define PGRRES_1280x960                 8939
+#define ID_INDICATOR_STEREO             8940
+#define PGRRES_CAMERA_RIGHT             8941
+#define ID_INDICATOR_RGB                8942
+#define PGRRES_CAMERA_LEFT              8943
+#define ID_INDICATOR_TIMESTAMP          8944
+#define ID_INDICATOR_1394TIMESTAMP      8946
+#define ID_INDICATOR_FRAMERATE          8947
+#define PGRRES_RADIO_STEREOALG_3CAM     8948
+#define PGRRES_RADIO_STEREOALG_2CAMHORZ 8949
+#define PGRRES_RADIO_STEREOALG_2CAMVERT 8950
+#define IDC_STATIC_BETTER_STEREO        8951
+#define IDC_STATIC_RECT_QUALITY         8956
+#define PGRRES_CHECK_DISPLAYVALIDATIONCOLORS 8957
+#define PGRRES_CHECK_DISPLAYHEATMAP     8958
+#define PGRRES_IDC_COMBO_IMAGE          15467
+#define PGRRES_IDC_COMBO_CAMERA         15468
+#define PGRRES_IDC_COMBO_RESOLUTION     15469
+#define PGRRES_BUTTON_STEREOPARAMS      25464
+#define PGRRES_BUTTON_TRANSFORMATION    25465
+#define PGRRES_SLIDER_STEREO            31004
+#define PGRRES_SLIDER_EDGE              31005
+#define PGRRES_SLIDER_DISPARITY         31006
+#define PGRRES_SLIDER_TEXTURE           31007
+#define PGRRES_SLIDER_UNIQUENESS        31008
+#define PGRRES_CHECK_SMOOTH             31010
+#define PGRRES_CHECK_EDGE               31011
+#define PGRRES_CHECK_TEXTURE            31012
+#define PGRRES_CHECK_UNIQUENESS         31013
+#define PGRRES_CHECK_BACKFORTH          31014
+#define PGRRES_CHECK_DRAWCOLOURPOINTS   31015
+#define PGRRES_CHECK_SUBPIXEL           31016
+#define PGRRES_CHECK_DRAWPOINTS         31017
+#define PGRRES_STATIC_STEREO            31018
+#define PGRRES_STATIC_EDGE              31019
+#define PGRRES_STATIC_DISPARITY         31020
+#define PGRRES_STATIC_EDGE2             31021
+#define PGRRES_CHECK_DRAWSURFACES       31021
+#define PGRRES_STATIC_TEXTURE           31022
+#define PGRRES_STATIC_UNIQUENESS        31023
+#define PGRRES_CHECK_DRAWTEXTUREMAP     31024
+#define PGRRES_SLIDER_MINDISPARITY      31025
+#define PGRRES_STATIC_MINDISPARITY      31026
+#define PGRRES_STATIC_POINT_SIZE        31027
+#define PGRRES_CHECK_SURFACEVALIDATION  31028
+#define PGRRES_SLIDER_SURFACEVALIDATIONDIFF 31029
+#define PGRRES_STATIC_SURFACEVALIDATIONDIFF 31030
+#define PGRRES_STATIC_SURFACEVALIDATIONSIZE 31031
+#define PGRRES_SLIDER_SURFACEVALIDATIONSIZE 31032
+#define PGRRES_IDC_COMBO_RECTIFICATION  31033
+#define PGRRES_CHECK_STEREO_ALGORITHM   31034
+#define PGRRES_SLIDER_POINT_SIZE        31035
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        9
+#define _APS_NEXT_COMMAND_VALUE         40001
+#define _APS_NEXT_CONTROL_VALUE         8959
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

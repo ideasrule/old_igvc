@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/signed/Windows%20Vista
+END
+pgr1394.cat
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/signed/Windows%20Vista/pgr1394.cat
+END
+pgrcam.cat
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/signed/Windows%20Vista/pgrcam.cat
+END
+PGR1394.inf
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/signed/Windows%20Vista/PGR1394.inf
+END
+PGR1394.sys
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/signed/Windows%20Vista/PGR1394.sys
+END
+pgrcam.sys
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/signed/Windows%20Vista/pgrcam.sys
+END
+pgrcams.inf
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/signed/Windows%20Vista/pgrcams.inf
+END

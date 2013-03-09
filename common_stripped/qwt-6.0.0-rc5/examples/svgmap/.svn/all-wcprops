@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/svgmap
+END
+plot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/svgmap/plot.cpp
+END
+plot.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/svgmap/plot.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/svgmap/main.cpp
+END
+svgmap.pro
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/svgmap/svgmap.pro
+END

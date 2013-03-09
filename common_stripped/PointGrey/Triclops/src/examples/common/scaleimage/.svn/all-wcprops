@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/scaleimage
+END
+scaleimage.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/scaleimage/scaleimage.dsp
+END
+disparity.pgm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/scaleimage/disparity.pgm
+END
+scaleimage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/scaleimage/scaleimage.cpp
+END
+scaleimage.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/scaleimage/scaleimage.vcproj
+END

@@ -1,0 +1,360 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "PGRResource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "PGRResource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+PGRRES_STEREO_DIALOGBAR DIALOG DISCARDABLE  0, 0, 382, 21
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        PGRRES_IDC_COMBO_IMAGE,5,4,48,185,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT
+    COMBOBOX        PGRRES_IDC_COMBO_CAMERA,60,4,48,50,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT
+    COMBOBOX        PGRRES_IDC_COMBO_RESOLUTION,115,4,48,144,
+                    CBS_DROPDOWNLIST | CBS_NOINTEGRALHEIGHT
+    CONTROL         "Stereo Params",PGRRES_BUTTON_STEREOPARAMS,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,170,3,60,15
+    CONTROL         "Camera Control",PGRRES_CHECK_CAMERA_CONTROL,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,234,3,55,15
+    CONTROL         "Transformation",PGRRES_BUTTON_TRANSFORMATION,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,293,3,55,15
+END
+
+PGRRES_STEREO_CONTROL_DIALOG DIALOGEX 0, 0, 306, 340
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Triclops Stereo Settings"
+FONT 7, "Small Fonts", 0, 0, 0x1
+BEGIN
+    CONTROL         "3 Cam",PGRRES_RADIO_STEREOALG_3CAM,"Button",
+                    BS_AUTORADIOBUTTON | BS_NOTIFY | WS_GROUP | WS_TABSTOP,
+                    140,20,38,10
+    CONTROL         "2 Cam Narr",PGRRES_RADIO_STEREOALG_2CAMHORZ,"Button",
+                    BS_AUTORADIOBUTTON | BS_NOTIFY | WS_TABSTOP,140,35,54,10
+    CONTROL         "2 Cam Wide",PGRRES_RADIO_STEREOALG_2CAMVERT,"Button",
+                    BS_AUTORADIOBUTTON | BS_NOTIFY | WS_TABSTOP,140,50,55,10
+    CONTROL         "Grab",PGRRES_CHECK_GRAB,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,32,10
+    CONTROL         "Stereo",PGRRES_CHECK_STEREO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,35,38,10
+    CONTROL         "Points",PGRRES_CHECK_POINTS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,38,10
+    CONTROL         "Smooth",PGRRES_CHECK_SMOOTH,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,75,35,43,10
+    CONTROL         "Edge",PGRRES_CHECK_EDGE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,220,110,33,10
+    CONTROL         "Subpixel",PGRRES_CHECK_SUBPIXEL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,75,20,42,10
+    CONTROL         "Texture",PGRRES_CHECK_TEXTURE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,110,131,41,10
+    CONTROL         "Uniqueness",PGRRES_CHECK_UNIQUENESS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,201,54,10
+    CONTROL         "Back-forth",PGRRES_CHECK_BACKFORTH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,110,201,52,10
+    CONTROL         "Surface",PGRRES_CHECK_SURFACEVALIDATION,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,10,131,42,10
+    LTEXT           "Stereo Mask",IDC_STATIC,220,20,44,8
+    RTEXT           "Static",PGRRES_STATIC_STEREO,268,20,20,8
+    CONTROL         "Slider1",PGRRES_SLIDER_STEREO,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,220,33,70,10
+    LTEXT           "Edge Mask",IDC_STATIC,220,124,39,8
+    RTEXT           "Static",PGRRES_STATIC_EDGE,272,124,19,8
+    CONTROL         "Slider1",PGRRES_SLIDER_EDGE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,220,135,70,10
+    LTEXT           "Surface Diff.",IDC_STATIC,10,147,42,8
+    RTEXT           "Static",PGRRES_STATIC_SURFACEVALIDATIONDIFF,58,147,20,8
+    CONTROL         "Slider1",PGRRES_SLIDER_SURFACEVALIDATIONDIFF,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    10,158,70,10
+    LTEXT           "Surface Size",IDC_STATIC,10,171,42,8
+    RTEXT           "Static",PGRRES_STATIC_SURFACEVALIDATIONSIZE,62,171,19,8
+    CONTROL         "Slider1",PGRRES_SLIDER_SURFACEVALIDATIONSIZE,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    10,183,70,10
+    LTEXT           "Max. Disparity",IDC_STATIC,220,44,31,16
+    RTEXT           "Static",PGRRES_STATIC_DISPARITY,268,52,20,8
+    CONTROL         "Slider1",PGRRES_SLIDER_DISPARITY,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,220,65,70,10
+    LTEXT           "Min. Disparity",IDC_STATIC,220,74,31,16
+    RTEXT           "Static",PGRRES_STATIC_MINDISPARITY,270,82,19,8
+    CONTROL         "Slider1",PGRRES_SLIDER_MINDISPARITY,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,220,95,70,10
+    LTEXT           "Uniqueness Threshold",IDC_STATIC,10,216,40,16
+    RTEXT           "Static",PGRRES_STATIC_UNIQUENESS,58,224,20,8
+    CONTROL         "Slider1",PGRRES_SLIDER_UNIQUENESS,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,10,236,70,10
+    LTEXT           "Texture Validation",IDC_STATIC,110,146,34,16
+    RTEXT           "Static",PGRRES_STATIC_TEXTURE,158,154,19,8
+    CONTROL         "Slider1",PGRRES_SLIDER_TEXTURE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,110,166,70,10
+    GROUPBOX        "Processing",IDC_STATIC,5,5,60,60
+    CONTROL         "Colour Points",PGRRES_CHECK_DRAWCOLOURPOINTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,288,63,10
+    CONTROL         "Draw Points",PGRRES_CHECK_DRAWPOINTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,272,57,10
+    CONTROL         "Draw Surfaces",PGRRES_CHECK_DRAWSURFACES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,90,272,64,10
+    CONTROL         "Texture Map Surfaces",PGRRES_CHECK_DRAWTEXTUREMAP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,288,89,10
+    LTEXT           "Rectification quality",IDC_STATIC_RECT_QUALITY,219,166,
+                    66,8
+    COMBOBOX        PGRRES_IDC_COMBO_RECTIFICATION,219,177,73,105,
+                    CBS_DROPDOWNLIST | CBS_OEMCONVERT | CBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Enhanced Stereo",PGRRES_CHECK_STEREO_ALGORITHM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,219,196,73,10
+    GROUPBOX        "3D View",IDC_STATIC,5,258,200,71
+    GROUPBOX        "Stereo Config",IDC_STATIC,135,5,70,60
+    GROUPBOX        "Stereo Parameters",IDC_STATIC,210,5,90,145
+    GROUPBOX        "Validation",IDC_STATIC,5,123,200,133
+    GROUPBOX        "Options",IDC_STATIC,70,5,60,60
+    GROUPBOX        "Advanced Options",IDC_STATIC_BETTER_STEREO,210,152,90,
+                    63
+    CONTROL         3,IDC_STATIC,"Static",SS_BITMAP,68,132,9,8
+    CONTROL         9,IDC_STATIC,"Static",SS_BITMAP,166,222,9,8
+    CONTROL         11,IDC_STATIC,"Static",SS_BITMAP,69,202,9,8
+    CONTROL         7,IDC_STATIC,"Static",SS_BITMAP,166,202,9,8
+    CONTROL         8,IDC_STATIC,"Static",SS_BITMAP,165,132,9,8
+    LTEXT           "Non-optional",IDC_STATIC,114,223,45,8
+    CONTROL         "Validation Colors",PGRRES_CHECK_DISPLAYVALIDATIONCOLORS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,99,74,10
+    CONTROL         "Disparity as Temperature",PGRRES_CHECK_DISPLAYHEATMAP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,83,98,10
+    GROUPBOX        "Display Options",IDC_STATIC,5,71,201,47
+    CONTROL         "Slider1",PGRRES_SLIDER_POINT_SIZE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,10,314,70,10
+    RTEXT           "Static",PGRRES_STATIC_POINT_SIZE,58,302,20,8
+    LTEXT           "Point Size",IDC_STATIC,10,302,37,8
+END
+
+PGRRES_TRANSFORMDIALOG DIALOG DISCARDABLE  0, 0, 255, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Tranformation"
+FONT 7, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_XSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,25,8,73,11
+    EDITTEXT        IDC_XEDIT,102,7,42,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_YSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,25,22,73,11
+    EDITTEXT        IDC_YEDIT,102,20,42,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_ZSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,25,35,73,11
+    EDITTEXT        IDC_ZEDIT,102,33,42,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_ROLLSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,25,47,73,11
+    EDITTEXT        IDC_ROLLEDIT,102,46,42,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_PITCHSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,25,60,73,11
+    EDITTEXT        IDC_PITCHEDIT,102,59,42,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_YAWSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,25,72,73,11
+    EDITTEXT        IDC_YAWEDIT,102,72,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_A0EDIT,164,21,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_A1EDIT,184,21,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_A2EDIT,204,21,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_A3EDIT,224,21,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B0EDIT,164,35,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B1EDIT,184,35,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B2EDIT,204,35,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BEDIT3,224,35,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C0EDIT,164,49,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C1EDIT,184,49,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C2EDIT,204,49,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C3EDIT,224,49,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_D0EDIT,164,63,18,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_D1EDIT,184,63,18,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_D2EDIT,204,63,18,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_D3EDIT,224,63,18,12,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Tx",IDC_STATIC,10,9,9,8
+    RTEXT           "Ty",IDC_STATIC,10,23,9,8
+    RTEXT           "Tz",IDC_STATIC,10,35,9,8
+    RTEXT           "Rx",IDC_STATIC,9,48,10,8
+    RTEXT           "Ry",IDC_STATIC,9,60,10,8
+    RTEXT           "Rz",IDC_STATIC,9,72,10,8
+    GROUPBOX        "Transformation Matrix",IDC_STATIC,158,7,90,72
+END
+
+PGRRES_PLEASE_WAIT_DIALOG DIALOGEX 0, 0, 186, 68
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_LEFTSCROLLBAR
+CAPTION "Please Wait"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please wait while Triclops Demo initializes for stereo processing.",
+                    IDC_STATIC,25,18,134,33
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+PGRRES_STEREO_DIALOGBAR DLGINIT
+BEGIN
+    PGRRES_IDC_COMBO_CAMERA, 0x403, 6, 0
+0x6952, 0x6867, 0x0074, 
+    PGRRES_IDC_COMBO_CAMERA, 0x403, 5, 0
+0x654c, 0x7466, "\000" 
+    PGRRES_IDC_COMBO_CAMERA, 0x403, 4, 0
+0x6f54, 0x0070, 
+    PGRRES_IDC_COMBO_RESOLUTION, 0x403, 8, 0
+0x3631, 0x7830, 0x3231, 0x0030, 
+    PGRRES_IDC_COMBO_RESOLUTION, 0x403, 8, 0
+0x3233, 0x7830, 0x3432, 0x0030, 
+    PGRRES_IDC_COMBO_RESOLUTION, 0x403, 8, 0
+0x3436, 0x7830, 0x3834, 0x0030, 
+    PGRRES_IDC_COMBO_RESOLUTION, 0x403, 9, 0
+0x3031, 0x3432, 0x3778, 0x3836, "\000" 
+    PGRRES_IDC_COMBO_RESOLUTION, 0x403, 9, 0
+0x3231, 0x3038, 0x3978, 0x3036, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    PGRRES_STEREO_DIALOGBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 374
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 14
+    END
+
+    PGRRES_STEREO_CONTROL_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 301
+        BOTTOMMARGIN, 336
+    END
+
+    PGRRES_TRANSFORMDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+
+    PGRRES_PLEASE_WAIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_BLUE         BITMAP  DISCARDABLE     "blue.bmp"
+IDB_BITMAP_YELLOW       BITMAP  DISCARDABLE     "yellow.bmp"
+IDB_BITMAP_RED          BITMAP  DISCARDABLE     "red.bmp"
+IDB_BITMAP_MAGENTA      BITMAP  DISCARDABLE     "magenta.bmp"
+IDB_BITMAP_GREEN        BITMAP  DISCARDABLE     "green.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    PGRRES_160x120          "Change resolution to 160x120\nChange resolution to 160x120"
+    PGRRES_RAW_IMAGE        "Display Raw Image\nDisplay Raw Image"
+    PGRRES_RECTIFIED_IMAGE  "Display Rectified Image\nDisplay Rectified Image"
+    PGRRES_EDGE_IMAGE       "Display Edge Image\nDisplay Edge Image"
+    PGRRES_DISPARITY_IMAGE  "Display Disparity Image\nDisplay Edge Image"
+    PGRRES_320x240          "Change resolution to 320x240\nChange resolution to 320x240"
+    PGRRES_640x480          "Change resolution to 640 x 480\nChange resolution to 640 x 480"
+    PGRRES_1024x768         "Change resolution to 1024 x 768\nChange resolution to 1024 x 768"
+    PGRRES_DISPLAY_POINTCLOUD "Display Pointcloud\nDisplay Pointcloud"
+    PGRRES_1280x960         "Change resolution to 1280 x 960\nChange resolution to 1280 x 960"
+    ID_INDICATOR_STEREO     "RCD(000,000,000.00) = XYZ(-00.000,-00.000,-00.000)"
+    ID_INDICATOR_RGB        "RC(000,000) = RGB(000,000,000)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_TIMESTAMP  "                                                              "
+    ID_INDICATOR_1394TIMESTAMP "000,0000"
+    ID_INDICATOR_FRAMERATE  "00.0 Hz"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

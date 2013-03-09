@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/tools
+END
+easy.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/tools/easy.py
+END
+grid.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/tools/grid.py
+END
+subset.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/tools/subset.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/tools/README
+END
+checkdata.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/tools/checkdata.py
+END

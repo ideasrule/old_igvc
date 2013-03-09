@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/PAVE/!svn/ver/1031/Common/trunk
+END
+labjack.pri
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/PAVE/!svn/ver/1016/Common/trunk/labjack.pri
+END
+Common.pri
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/PAVE/!svn/ver/956/Common/trunk/Common.pri
+END
+pave-env-2003.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/PAVE/!svn/ver/932/Common/trunk/pave-env-2003.txt
+END
+libsvm.pri
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/PAVE/!svn/ver/974/Common/trunk/libsvm.pri
+END
+build-libraries-2008.bat
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/951/Common/trunk/build-libraries-2008.bat
+END
+set-env.bat
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/PAVE/!svn/ver/932/Common/trunk/set-env.bat
+END
+pave-env-2008.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/PAVE/!svn/ver/932/Common/trunk/pave-env-2008.txt
+END
+build-libraries.bat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/PAVE/!svn/ver/951/Common/trunk/build-libraries.bat
+END

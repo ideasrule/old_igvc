@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/PAVE/!svn/ver/926/Common/trunk/Libraries/Geometry
+END
+Point2D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/Point2D.cpp
+END
+Geometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/Geometry.h
+END
+Point3D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/Point3D.cpp
+END
+Path2D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/Path2D.cpp
+END
+Geometry.pri
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/Geometry.pri
+END
+Point2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/Point2D.h
+END
+Point3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/Point3D.h
+END
+Path2DException.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/Path2DException.h
+END
+PointStructs.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/PointStructs.h
+END
+Path2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/PAVE/!svn/ver/867/Common/trunk/Libraries/Geometry/Path2D.h
+END
+Geometry.pro
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/PAVE/!svn/ver/877/Common/trunk/Libraries/Geometry/Geometry.pro
+END

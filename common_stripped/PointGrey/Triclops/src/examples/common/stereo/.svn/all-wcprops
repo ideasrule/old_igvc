@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereo
+END
+stereo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereo/stereo.cpp
+END
+stereo.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereo/stereo.vcproj
+END
+stereo.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereo/stereo.dsp
+END
+customizedstereo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereo/customizedstereo.cpp
+END
+customizedstereo.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereo/customizedstereo.vcproj
+END
+input.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereo/input.ppm
+END
+customizedstereo.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereo/customizedstereo.dsp
+END
+input.cal
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereo/input.cal
+END

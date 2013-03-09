@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx
+END
+StdAfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/StdAfx.h
+END
+SerialPortEx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/SerialPortEx.cpp
+END
+SerialPortEx.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/SerialPortEx.vcproj
+END
+SerialPortEx.rc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/SerialPortEx.rc
+END
+SerialPortEx.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/SerialPortEx.dsp
+END
+SerialPortEx.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/SerialPortEx.h
+END
+SerialPortExDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/SerialPortExDlg.cpp
+END
+StdAfx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/StdAfx.cpp
+END
+SerialPortEx.sln
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/SerialPortEx.sln
+END
+SerialPortEx.dsw
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/SerialPortEx.dsw
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/resource.h
+END
+SerialPortExDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/src/SerialPortEx/SerialPortExDlg.h
+END

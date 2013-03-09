@@ -1,0 +1,17 @@
+TriclopsDemo allows you to experiment with all of the stereo functionality provided by the Triclops library.  For simply viewing images produced by your stereo vision camera system, we recommend using FlYCapture.
+
+For answers to your questions, we recommend accessing our online knowledge base at http://www.ptgrey.com/support/kb/
+
+You can submit technical support questions through our online support ticket system at http://www.ptgrey.com/support/contact/
+
+You can download the latest version of the triclops and flycapture software from http://www.ptgrey.com/support/downloads/
+
+Using the mouse to click on a valid point in the disparity view will set the center of rotation for the 3D view.
+
+Clicking on the 'Stereo Params' button on the application toolbar will allow you to modify a variety of important stereo settings.
+
+Clicking on the 'Camera Control' button on the application toolbar will allow you to modify different camera parameters such as gain and shutter.
+
+Perhaps the most important parameter to set in order to insure the extraction of good stereo data is the disparity range.  This sets the minimum and maximum distance over which measurements will be made.  The larger the maximum disparity setting, the closer the minimum distance measured.  The smaller the minimum disparity setting, the further the maximum distance measured.
+
+The speed of stereo processing is highly dependent on the disparity range being searched.  The larger the disparity range, the greater the processing requirements.

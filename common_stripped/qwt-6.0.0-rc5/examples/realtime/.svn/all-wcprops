@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime
+END
+scrollzoomer.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/scrollzoomer.h
+END
+incrementalplot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/incrementalplot.cpp
+END
+incrementalplot.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/incrementalplot.h
+END
+clear.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/clear.xpm
+END
+mainwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/mainwindow.cpp
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/README
+END
+start.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/start.xpm
+END
+randomplot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/randomplot.cpp
+END
+realtime.pro
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/realtime.pro
+END
+mainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/mainwindow.h
+END
+scrollbar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/scrollbar.cpp
+END
+randomplot.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/randomplot.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/main.cpp
+END
+scrollbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/scrollbar.h
+END
+scrollzoomer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/examples/realtime/scrollzoomer.cpp
+END

@@ -1,0 +1,156 @@
+10
+
+dir
+1032
+https://svn.princetonpave.org/svn/PAVE/Common/trunk/qwt-6.0.0-rc5/examples
+https://svn.princetonpave.org/svn/PAVE
+
+
+
+2011-02-27T03:08:30.825776Z
+910
+JoshuaNewman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+85665946-43c8-3d45-927c-78cf624b31f3
+
+event_filter
+dir
+
+cpuplot
+dir
+
+spectrogram
+dir
+
+tvplot
+dir
+
+friedberg
+dir
+
+sysinfo
+dir
+
+rasterview
+dir
+
+dials
+dir
+
+svgmap
+dir
+
+refreshtest
+dir
+
+radio
+dir
+
+oscilloscope
+dir
+
+navigation
+dir
+
+sinusplot
+dir
+
+realtime
+dir
+
+plotmatrix
+dir
+
+curvdemo1
+dir
+
+sliders
+dir
+
+curvdemo2
+dir
+
+examples.pri
+file
+
+
+
+
+2011-12-11T21:09:20.000000Z
+5e76a0ccf8722c3fbbe0ae45b22e14ba
+2011-02-27T03:08:30.825776Z
+910
+JoshuaNewman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+989
+
+bode
+dir
+
+examples.pro
+file
+
+
+
+
+2011-12-11T21:09:20.000000Z
+96f737422c5c17fb00d9e87c9bf52fed
+2011-02-27T03:08:30.825776Z
+910
+JoshuaNewman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1099
+

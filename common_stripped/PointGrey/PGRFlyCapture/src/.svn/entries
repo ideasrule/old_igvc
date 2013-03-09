@@ -1,0 +1,113 @@
+10
+
+dir
+1032
+https://svn.princetonpave.org/svn/PAVE/Common/trunk/PointGrey/PGRFlyCapture/src
+https://svn.princetonpave.org/svn/PAVE
+
+
+
+2011-05-31T15:26:53.526462Z
+1014
+BrentonPartridge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+85665946-43c8-3d45-927c-78cf624b31f3
+
+SaveImageToFlashEx
+dir
+
+ImageEventEx
+dir
+
+SerialPortEx
+dir
+
+timeSliceDemo
+dir
+
+FlyCapVBdotNET
+dir
+
+CustomBuffersEx
+dir
+
+PGRFlyCaptureTest
+dir
+
+PGRFlyCaptureTestCSharp
+dir
+
+MessageLoggingEx
+dir
+
+SaveToAviEx
+dir
+
+HighDynamicRangeEx
+dir
+
+AsyncTriggerEx
+dir
+
+MultipleCameraEx
+dir
+
+MultipleCameraPlusEx
+dir
+
+Examples.sln
+file
+
+
+
+
+2011-12-11T21:06:10.000000Z
+a1bdd13edc66cab76923aa0d4d2bc789
+2011-05-31T15:26:53.526462Z
+1014
+BrentonPartridge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21742
+
+CustomImageEx
+dir
+
+ExtendedShutterEx
+dir
+
+FlyCap
+dir
+

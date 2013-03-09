@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver
+END
+pgrsync.inf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/pgrsync.inf
+END
+pgrsync.sys
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/pgrsync.sys
+END
+pgr1394.inf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/pgr1394.inf
+END
+pgrcam.inf
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/pgrcam.inf
+END
+pgr1394.sys
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/pgr1394.sys
+END
+pgrcam.sys
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/PGRFlyCapture/driver/pgrcam.sys
+END

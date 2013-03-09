@@ -1,0 +1,505 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FlyCap.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FlyCap.ico"
+IDR_IMAGETYPE           ICON    DISCARDABLE     "res\\FlyCapDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_TOOLBARHI           BITMAP  DISCARDABLE     "res\\ToolbarHigh.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_SAVE_AS
+    BUTTON      ID_VIEW_CAMERACONTROL
+    SEPARATOR
+    BUTTON      ID_BUTTON_CAMERA_START
+    BUTTON      ID_BUTTON_START_RECORD
+    SEPARATOR
+    BUTTON      ID_BUTTON_HISTOGRAM
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Camera Control\tF11",         ID_VIEW_CAMERACONTROL
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Show\\Hide Toolbar\tF8",      ID_HIDE_TOOLBAR
+        MENUITEM "Grab an .avi\tF9",            ID_FILE_GRAB_AVI
+        MENUITEM "Display Crosshair\tF10",      ID_FILE_DISPLAYCROSSHAIR
+        MENUITEM "Full Screen Mode\tF12",       ID_FILE_FULLSCREENMODE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "View"
+    BEGIN
+        POPUP "Title Bar Style"
+        BEGIN
+            MENUITEM "Model and Serial Number",     ID_VIEW_TB_MODELANDSERIAL
+
+            MENUITEM "Requested FPS",               ID_VIEW_TB_REQUESTEDFPS
+            MENUITEM "Processed FPS",               ID_VIEW_TB_PROCESSEDFPS
+            MENUITEM "Displayed FPS",               ID_VIEW_TB_DISPLAYEDFPS
+        END
+        POPUP "Camera Status Info Style"
+        BEGIN
+            MENUITEM "Requested FPS",               ID_VIEW_SB_REQUESTEDFPS
+            MENUITEM "Processed FPS",               ID_VIEW_SB_PROCESSEDFPS
+            MENUITEM "Displayed FPS",               ID_VIEW_SB_DISPLAYEDFPS
+        END
+        POPUP "Image Status Info Style"
+        BEGIN
+            MENUITEM "Timestamp",                   ID_VIEW_SB_TIMESTAMP
+            MENUITEM "Image and Cursor",            ID_VIEW_SB_CURSOR
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "PGR Version Info...",         ID_APP_VERSION_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "Contents",                    ID_HELP_TOC
+        MENUITEM "Index",                       ID_HELP_INDEX
+        MENUITEM "Search",                      ID_HELP_SEARCH
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      ID_FILE_FULLSCREENMODE, VIRTKEY, NOINVERT
+    VK_F10,         ID_FILE_DISPLAYCROSSHAIR, VIRTKEY, NOINVERT
+    VK_F11,         ID_VIEW_CAMERACONTROL,  VIRTKEY, NOINVERT
+    VK_F12,         ID_FILE_FULLSCREENMODE, VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F8,          ID_HIDE_TOOLBAR,        VIRTKEY, NOINVERT
+    VK_F9,          ID_FILE_GRAB_AVI,       VIRTKEY, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_RETURN,      ID_FILE_FULLSCREENMODE, VIRTKEY, ALT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_RECORD DIALOG DISCARDABLE  0, 0, 240, 249
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Clip Record Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Frames:",IDC_RADIO_FRAMES,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,20,40,8
+    EDITTEXT        IDC_EDIT_LENGTH,56,18,50,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Seconds:",IDC_RADIO_TIME,"Button",BS_AUTORADIOBUTTON,10,
+                    37,42,8
+    EDITTEXT        IDC_EDIT_LENGTH_TIME,56,37,50,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_FRAMERATE,180,29,40,12,ES_AUTOHSCROLL
+    CONTROL         "Stream (Click the Record button again to stop recording)",
+                    IDC_RADIO_STREAM,"Button",BS_AUTORADIOBUTTON,10,54,197,8
+    CONTROL         "Video (AVI)",IDC_RADIO_VIDEO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,11,109,51,10
+    CONTROL         "Images",IDC_RADIO_IMAGES,"Button",BS_AUTORADIOBUTTON,73,
+                    109,39,10
+    CONTROL         ".BMP",IDC_RADIO_IMAGE_BMP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,116,100,33,10
+    CONTROL         ".PPM",IDC_RADIO_IMAGE_PPM,"Button",BS_AUTORADIOBUTTON,
+                    116,113,33,10
+    CONTROL         ".PGM",IDC_RADIO_IMAGE_PGM,"Button",BS_AUTORADIOBUTTON,
+                    153,100,34,10
+    CONTROL         ".RAW",IDC_RADIO_IMAGE_RAW,"Button",BS_AUTORADIOBUTTON,
+                    153,113,35,10
+    EDITTEXT        IDC_EDIT_PATH,32,188,145,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,57,228,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,134,228,50,14
+    LTEXT           "Path",IDC_STATIC,7,190,16,8
+    LTEXT           "Frame rate override:",IDC_STATIC,111,30,64,8
+    LTEXT           "Press F9 to record after pressing OK",IDC_STATIC,7,205,
+                    114,8
+    LTEXT           "Warning; frames are buffered in system memory unless streaming.",
+                    IDC_STATIC,13,68,205,8
+    GROUPBOX        "Recording Length",IDC_STATIC,7,7,226,78
+    GROUPBOX        "Recording Output",IDC_STATIC,7,92,226,54
+    PUSHBUTTON      "Select Compressor",IDC_BUTTON_SELECT_COMPRESSOR,11,163,
+                    65,14
+    EDITTEXT        IDC_EDIT_SELECTED_COMPRESSOR,83,166,142,12,
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    GROUPBOX        "Compression",IDC_STATIC,7,150,226,33
+    CONTROL         ".JPG",IDC_RADIO_IMAGE_JPG,"Button",BS_AUTORADIOBUTTON,
+                    191,100,31,10
+    LTEXT           "JPG Compression Quality (0-100)",IDC_STATIC,11,132,104,
+                    8
+    EDITTEXT        IDC_EDIT_JPG_COMPRESSION_QUALITY,127,131,51,12,
+                    ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOG_COMPRESSOR_SELECTION DIALOG DISCARDABLE  0, 0, 153, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Compressor Selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Select",IDOK,7,81,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,96,81,50,14
+    LTEXT           "Compressors known to work correctly at the current resolution are coloured blue.",
+                    IDC_STATIC,7,7,136,18
+    COMBOBOX        IDC_COMBO_LIST_COMPRESSORS,7,28,139,60,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Configure",IDC_BUTTON_CONFIGURE,52,46,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,7,2,13
+ PRODUCTVERSION 1,7,2,13
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Built 15 January 2008\0"
+            VALUE "CompanyName", "Point Grey Research, Inc.\0"
+            VALUE "FileDescription", "FlyCap MFC Application\0"
+            VALUE "FileVersion", "1, 7, 2, 13\0"
+            VALUE "InternalName", "FlyCap\0"
+            VALUE "LegalCopyright", "Copyright © Point Grey Research Inc. 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FlyCap.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Point Grey Research FlyCap\0"
+            VALUE "ProductVersion", "1, 7, 2, 13\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_RECORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_DIALOG_COMPRESSOR_SELECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 146
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "FlyCap\n\nImage\n\n\nFlyCap.Document\nImage Document"
+    IDD_CAMERAPROPERTIES    "Display camera properties dialog\nDisplay camera properties dialog"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "FlyCap"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Choose a new camera to access.\nChoose a new camera to access."
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the image\nSave the image"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    ID_INDICATOR_FRAME_RATE "Requested FPS: 0000.0 Hz"
+    ID_INDICATOR_IMAGEINFO  "                                                                                                                          "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_CAMERACONTROL   "View camera control dialog\nView camera control dialog"
+    ID_VIEW_CAMERAINFORMATION "View Fly camera information dialog."
+    ID_VIEW_TOPCAMERA       "View the image from the top camera"
+    ID_VIEW_LEFTCAMERA      "View the image from the left camera."
+    ID_VIEW_RIGHTCAMERA     "View the image from the right camera."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CAMERASETTINGS_CONTROLREGISTERS "Open Camera Register Control Dialog"
+    ID_FILE_FULLSCREENMODE  "Display the image in full screen mode.\nDisplay the image in full screen mode."
+    ID_BUTTON_CAMERA_START  "Play/Pause\nPlay/Pause"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_GRAB_AVI        "Grab an .avi file.\nGrab an .avi file."
+    ID_BUTTON_START_RECORD  "Enable/Disable recording mode\nEnable/Disable recording mode"
+    ID_APP_VERSION_INFO     "Display PGR version information.\nDisplay PGR version information."
+    ID_BUTTON_HISTOGRAM     "Launch PGR Image Utility.\nDisplay PGR Image Utility"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_GRAB         CURSOR  DISCARDABLE     "res\\hand.cur"
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FlyCap.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

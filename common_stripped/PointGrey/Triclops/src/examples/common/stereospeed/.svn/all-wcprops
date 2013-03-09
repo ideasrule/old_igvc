@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereospeed
+END
+stereospeed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereospeed/stereospeed.cpp
+END
+stereospeed.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereospeed/stereospeed.vcproj
+END
+stereospeed.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereospeed/stereospeed.dsp
+END
+input.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereospeed/input.ppm
+END
+input.cal
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/PAVE/!svn/ver/1014/Common/trunk/PointGrey/Triclops/src/examples/common/stereospeed/input.cal
+END

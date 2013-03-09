@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/PAVE/!svn/ver/973/Common/trunk/scripts
+END
+generate-pro.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/PAVE/!svn/ver/973/Common/trunk/scripts/generate-pro.py
+END
+proj-open.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/PAVE/!svn/ver/929/Common/trunk/scripts/proj-open.py
+END
+proj-create.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/PAVE/!svn/ver/929/Common/trunk/scripts/proj-create.py
+END
+abs2rel-vcproj.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/PAVE/!svn/ver/714/Common/trunk/scripts/abs2rel-vcproj.sh
+END
+find-extensions.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/PAVE/!svn/ver/786/Common/trunk/scripts/find-extensions.py
+END
+abs2rel-bat.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/PAVE/!svn/ver/714/Common/trunk/scripts/abs2rel-bat.sh
+END
+build-all.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/PAVE/!svn/ver/790/Common/trunk/scripts/build-all.py
+END
+change-author.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/PAVE/!svn/ver/785/Common/trunk/scripts/change-author.sh
+END

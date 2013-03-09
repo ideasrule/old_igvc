@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/designer
+END
+designer.pro
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/designer/designer.pro
+END
+qwt_designer_plotdialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/designer/qwt_designer_plotdialog.h
+END
+qwt_designer_plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/designer/qwt_designer_plugin.h
+END
+qwt_designer_plotdialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/designer/qwt_designer_plotdialog.cpp
+END
+qwt_designer_plugin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/designer/qwt_designer_plugin.cpp
+END
+qwt_designer_plugin.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PAVE/!svn/ver/910/Common/trunk/qwt-6.0.0-rc5/designer/qwt_designer_plugin.qrc
+END

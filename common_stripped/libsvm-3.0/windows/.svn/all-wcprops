@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/windows
+END
+svm-train.exe
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/windows/svm-train.exe
+END
+libsvm.dll
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/windows/libsvm.dll
+END
+svm-scale.exe
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/windows/svm-scale.exe
+END
+svm-predict.exe
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/windows/svm-predict.exe
+END
+svm-toy.exe
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/windows/svm-toy.exe
+END

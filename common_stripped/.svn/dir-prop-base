@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 95
+*/debug
+*/Debug
+*/release
+*/Release
+*.pdb
+*.suo
+*.ncb
+*.user
+*.vspscc
+*.vssscc
+*.scc
+Thumbs.db
+
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/svm-toy/gtk
+END
+callbacks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/svm-toy/gtk/callbacks.cpp
+END
+interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/svm-toy/gtk/interface.c
+END
+callbacks.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/svm-toy/gtk/callbacks.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/svm-toy/gtk/main.c
+END
+interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/svm-toy/gtk/interface.h
+END
+svm-toy.glade
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/svm-toy/gtk/svm-toy.glade
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/PAVE/!svn/ver/755/Common/trunk/libsvm-3.0/svm-toy/gtk/Makefile
+END

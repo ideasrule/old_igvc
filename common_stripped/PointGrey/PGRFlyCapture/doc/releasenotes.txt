@@ -1,0 +1,895 @@
+Point Grey Research FlyCapture 1394 Driver and SDK Release Notes
+----------------------------------------------------------------
+
+We welcome your bug reports, questions, and comments: 
+www.ptgrey.com/support/contact/
+
+
+Change Log
+----------
+
+1.7 Release Candidate 13 (January 15 2008)
+- Fixed issue with the non-colour processing algorithm for raw8 images.  New processing now uses less CPU resources.
+- Created a flycapture_FULL installation which include the processor optimized IPP dll's.  This will give best results and is the recommended installation.  For customers who require a smaller installation file, flycapture.exe is still available but with non-optimized IPP dlls.
+- Created a seperate installer for 64-installations.  This fixes issues with dlls going into the SYSWOW64 directory on 64-bnit systems instead of the system 32 directory.  This also fixes issues with the 64-bit registry settings.
+- Added utility (C1EDisable) which writes a registery setting which flycapture checks when running.  Enhanced Halt State (C1E) will be disabled while flycapture is running if this setting is set.  C1E will be re-enabled when flycapture exits.  Included this option as part of the installation dialogs as well.
+- Added support for new cameras in flycapture.dll to report proper sensor descriptions and resolutions.
+
+1.7 Alpha 11 and Beta 12
+- Internal Build
+
+1.7 Alpha 10 (November 26 2007)
+- Fixed PGRPro driver issue with missed events and stopping cameras with some configurations.
+- Created examples.sln solution file so that all example programs can be opened together in VS2005.
+
+1.7 Alpha 9 (November 20 2007)
+- Internal Build for PGRPro driver.
+
+1.7 Alpha 8 (November 14 2007)
+- Resolved Bug 5463 - Default JPEG image quality default parameter was removed to fix compatability issue with C compilers.  Seperate Set call was added to set the JPEG compression quality.
+- Added new ipp dll which works with our dll to improve image processing.
+- During 32-bit installations, all dll's are added only to the system32 directory, not the bin directory.
+- Removed installers dependency on .NET being installed.
+
+1.7 Alpha 7 (November 1 2007)
+- Internal Build
+
+1.7 Alpha 6 (October 31 2007)
+- Internal Build
+
+1.7 Alpha 5 (October 21 2007)
+- Internal Build
+
+1.7 Alpha 4 (October 15 2007)
+- Internal Build
+- Resolved Bug 5081 - Cursor coordinates are now based on image position instead of window position.
+- Added new signed pgrcam driver (1.7.0.3).  This driver adds support for new cameras and fixes some issues related to 64-bit operating systems.
+- Resolved Bug 5091 - Resolved issue with flycaptureGetStrobe and flycaptureSetStrobe not linking properly.
+- Can now use LockLatest on a 64-bit PC with 4G of RAM or more.  Modified flycapture to use LockLatest in Free-running mode.
+- Enhanced camera control dialog to add more features.
+- Added automatic avi splitting to limit the size of avi files.  They will automatically be split with an appended file number if necessary.
+- Resolved Bug 5801 - Cursor position now displays position of image, not window.
+- Resolved Bug 4829 - Allow attempt to save to default memory channel. Doing this will reset the camera to load factory defaults.
+- Resolved Bug 5358 - Loading GPIO dialog toggles GPIO output pins. GPIO dialog now behaves correctly.
+- Added display of chip revisions on Bus Topology dialog
+- Added C1E registry detection to Info/Support dialog
+- Added enhancements to DriverControlGui, including ability to install signed PGRPRO driver, as well as other third party drivers.  Can now install the PGRPRO driver on 1394a cards as well.
+
+1.7 Alpha 3 (July 23 2007)
+- This release was cut only to create a unique driver version for Windows certification.  No software was released.
+
+1.7 Alpha 2 (June 13 2007)
+- Resolved Bug 5123 - Trigger dialog now shows Trigger Mode 15 for supported cameras (such as the Grasshopper).
+- Resolved Bug 5238 - DriverControlGui supports the unsigned PGR1394 driver.
+- Added info support for the Grasshopper camera, with updated resolutions.
+- Renamed PGR1394b.sys driver to PGR1394.sys since it can now be installed on 1394a cards as well.
+- Resolved Bug 5216 - Fixed driver issue where we could get a black image if exceeding the bus bandwidth.
+- Resolved Bug 5214 - Fixed driver issue regarding bandwidth not being freed properly when camera is unplugged.
+- Resolved Bug 5208 - Fixed driver issue with Server2003 or x64 with >4G RAM when image size is not a multiple of packet size.
+- Resolved Bug 5120 - Added Stereo Camera documentation to the flycapture installation.
+- Added .NET examples to 64-bit installations.
+- Intel IPP DLLs (required since 1.6 Release 23 for JPEG image saving) are now installed to /System32.
+- Fixed bug in JPEG compression error handling.
+
+1.7 Alpha 1 (March 30 2007)
+- This is the first release which supports stereo cameras (BB2 and XB3).
+- In Flycapture, Format 7 Mode 3 shows stereo images side-by-side if available.
+- Added stereo functions in API to support stereo programming.  Used by triclops examples.
+
+1.6 Release 23 (April 30 2007)
+- Added JPEG image saving.
+- Fixed issue with LockNext while running Server 2003 32-bit with >= 4G ram
+- Drivers include speed map and gap count setting.
+- Re-signed pgrcam.sys and signed PGR1394.sys (for 1394 cards).
+- PGR1394 driver now support 1394a cards as well.
+- Signed drivers are installed by default.
+
+1.6 Release 22 (March 29 2007)
+- Internal release only to cut release of a signable driver for 1394b.sys and pgrcam.sys
+
+1.6 Release 21 (February 27 2007)
+- Resolved Bug 4708 - Crash when stepping out of VS2005 debugger with multiple processors.
+- Automatic signed driver for Vista x64 was not working.  The system needed to be rebooted.
+This is now fixed.  We automatically install signed drivers in XP, XP64, Vista, Vista64.
+ 
+ 1.6 Release 20 (February 07 2007)
+- Added signed drivers for XP, XP64, Vista, Vista64
+- Signed Drivers are now installed by default.  This will stop the hardware wizard from being displayed.
+- Vista64 installations are now supported.
+
+1.6 Release 19 (February 02 2007)
+- This Release currently does not support Vista x64 operating systems.
+- Added ability to force 64 or 32 bit installation via command line regardless of OS
+- Fixed issue which was found in the cancel logic.
+- Resolved bug 4812 - Added new camera models to pgrcam.inf
+- Resolved bug 4706 - Using bus number and device number to identify camera.
+- Resolved bug 4699 - Fixed issue with a using a 1394a hub between a 1394b camera and card.
+- Resolved bug 4685 - Fixed issue with FLEA2 not sync'ing using PGR1394b.sys.
+- Resolved bug 4591 - Increased maximum number of cameras from 64 to 1024.
+- Resolved bug 4501 - Can now have >1M images on 64-bit OS with >= 4G RAM
+
+
+1.6 Release Candidate 15 (November 15 2006)
+- Updated the 1394b driver from an alpha to a beta release.
+- New signed driver including the latest PGR products.
+- Resolved Bug 4653 - Fixed compiler errors/warning which were seen when compiling example code in VS6 without the Windows DDK installed.
+- Resolved Bug 3030 - Added ability to save mono8, non-stippled images as 8-bit avi's.
+- Resolved Bug 4642 - Fixed "The application ended prematurely because of an error" installation issue with Windows 2000.
+
+1.6 Release 13 (October 31 2006)
+- Updated beta release of 64-bit FlyCapture to be able to install, run precompiled examples, and build example source code with Visual Studio 2005.
+
+1.6 Release Candidate 10 (October 6 2006)
+- Added beta release of 64-bit FlyCapture to installer.
+
+1.6 Beta 09 (25 September 2006)
+- Resolved bug 4442 - Added TAN2006005 and "Flea2 Technical Reference" documentation.  Replaced "FlyCapture API Help.chm" with "FlyCapture API Programming Reference.pdf".
+- Resolved bug 2991 - Added set register calls to all console examples to reinit the camera via 0x000 and explicitly power-up the camera
+- Resolved bug 4281 - Added README.txt to FlyCap for information on adding HTMLHelp support
+- Resolved bug 3654 - Added IEEE Floating Point representation of register values in Registers Dialog.
+- Resolved bug 3940 - The last used AVI save path is now stored in the registry and is used as the default save path when trying to record.
+- Resolved bug 3941 - When saving an avi, flycapture checks to see if the file already exists and if so prompts the user for overwrite.
+- Resolved bug 4375 - cdecl calling convention is now explicitly declared for all api functions.
+- Topology map has been upgraded to include camera voltages, as well as port error counts if using 1394b drivers/cameras.
+- Added feedback to the user when recording/saving in the lower-right text bar.
+- Reorganized files into new features to give user more control over what is installed during custom installation.
+
+1.6 Beta 08 (16 August 2006)
+- 64-bit install now uses the 64-bit registry hive.
+- 64-bit installer will automatically install the 64-bit pgrcam.inf driver.
+- More FlyCap recording options such as compressor selection
+  and save as images.
+- Resolved bug 3448 - Camera Selection dialog does not register device removal from PGR1394b-PRO bus
+- Resolved bug 4293 - memory leak when doing many stops/starts using  PGR1394b-PRO driver.
+- Resolved bug 4179 - Register names being reported are incorrect
+- Resolved bug 4209 - Removed heartbeat functionality
+- Resolved bug 4101 - Speed setting in control gui incorrectly exposes formats and frame rates
+- Resolved bug 4215 - Should return unit position values in flycaptureQueryCustomImage()
+- Resolved bug 4241 - MultiCameraEx hangs using custom image mode
+- Resolved bug 4242 - SaveToAVIEx handles buffers incorrectly
+- Resolved bug 4243 - Irregular timestamps with MultiCameraEX using Custom Image Mode
+- Resolved bug 4297 - Problem with allocateImageBuffers() call in CustomBuffersEx
+- Resolved bug 4316 - Add option to save multiple images in place of AVI
+
+1.6 Beta 07 (23 June 2006)
+- 64-bit install option is now available.
+- Resolved bug 3730 - Block register reads is broken
+- Resolved bug 4169 - Cannot close FlyCapVBdotNET
+- Resolved bug 4174 - Black line at bottom of grabbed images
+- Resolved bug 4113 - Context-Sensitive Online Help
+- Resolved bug 4177 - Hide/Grey out unavailable/unsupported video modes
+- Resolved bug 4196 - Add "Apply changes to all channels" option to LUT dialog
+- Resolved bug 4221 - Display number of messages for specific message types
+- Resolved bug 4283 - Install from msi works only when using quiet install option
+- Fixed missing "hand.cur" resource file when compiling FlyCap
+
+1.6 Beta 06 (17 May 2006)
+
+- Resolved bug 3946 - Convert documentation to Compiled HTML Help (.chm) format
+- Resolved bug 3986 - Disable appropriate framerates when bus speed changed.
+- Resolved bug 4076 - Fixed handle leak with PGR 1394 driver.
+- Resolved bug 4102 - Added Async and Isoch speed selection to camera selection 
+dialog box and added associated API calls.
+- Resolved bug 4107 - Fixed resizing buffers issue.
+- Added message events with information containing register read/writes, 
+grabbed images, bus resets/errors, and device arrivals/removals.
+- Added a Message Logging property page to FlyCap to receive and display messages.
+- Added MessageLoggingEx, an example which shows how to use the Message Logging
+API
+- Removed successful driver installation/upgrade message boxes during installation.
+- Added support for command line installations to specify whether to install the full
+FlyCapture SDK or only the RTL.
+- Added support for command line installations to specify whether or not to install the 
+custom 1394b driver stack.
+- Updated the Register property page to display the friendly name of the register 
+as the user is typing in the register number.
+- Removed bus event notification message boxes - these are now displayed in the 
+status bar of FlyCap.
+- Updated TimeSliceDemoEx to work with any camera (not just low resolution 
+DragonFlys).
+- YUV411 and YUV422 to RGB colour conversions are MMX optimized.
+- Resolved bug 3328 - Added API functions to allow users to control strobe 
+functionality
+- Resolved bug 3653 - Added support for the Dragonfly2's multiple channel Look
+Up Table in the camera control dialog and added API functions to allow easy 
+access and control.
+- Resolved bug 2367 - Added extended functions that allow users to retrieve or 
+configure OnePush/Auto/OnOff at the same time they set a property's absolute 
+value.
+- Resolved bug 4069 - Added a grab hand to FlyCap so users can click and drag
+large images around instead of scrolling.
+- Resolved bug 3775 - Users can now configure a camera into a Custom Image mode
+before starting it.
+- Resolved bug 3619 - Some memory allocated for record mode was not being freed 
+due to a bug with re-initializing contexts.
+- Resolved bug 3513 - Added functions to allow users to control and select the 
+onboard memory channels
+- The length of an AVI recording can be done by number of frames or number of 
+seconds.
+
+1.6 Alpha 05 (25 April 2006)
+
+- Added functionality to set/get bus speed.
+- Updated camera selection dialog box to provide user with ability
+to set the bus speed.
+
+1.6 Alpha 04 (20 February 2006)
+
+- First release of the PGR 1394b driver stack.
+- Implemented PGRFlyCapturetestCSharp - an example that illustrates how to use PGR 
+  FlyCapture with C#.
+- Implemented FlyCapVBdotNET - an example that illustrates how to use PGR FlyCapture 
+  with Visual Basic .NET
+- Fixed bug 3724 - Right click move ROI doesn't work with modes other than Format7
+- Fixed bug 3785 - InstallDriver does not update drivers
+- Fixed bug 3743 - Camera selection dialog not shown in Windows task bar
+- Fixed bug 3726 - Timestamp error when GMT rolls over midnight
+- Fixed bug 3685 - Documentation error in PGR IEEE-1394 Digital Camera Register
+  Reference
+- Fixed bug 3455 - Sensor and resolution information in camera selection dialog 
+  incorrect
+- Camera selection dialog now has configure button
+- Removed Bayer tile control in White Balance Dialog
+- Removed the Set button in the Trigger Dialog
+
+1.6 Alpha 02 (17 August 2005)
+
+ - Added the IEEE-1394 Bus Topology tab to the Camera Control Dialog
+ - Added the Error Codes tab to the Camera Control Dialog 
+ - Added the Phy Registers tab to the Camera Control Dialog
+ - Reorganized and added interactive preview to the Custom Image tab of 
+   the Camera Control dialog
+ - Interactive preview also implements the movable region of interest
+   so right clicking and dragging will write the appropriate registers
+   and cause the displayed ROI to move accordingly.
+ - Combined the Color Processing tab with the White Balance tab.  Renamed the
+   tab to White Balance/Color.  White Balance will now detect if the current
+   camera uses hardware or software white balance and hide the inappropriate set
+   of sliders.
+ - Major revamp of the Camera Control dialog layout.  The tabs at the top of
+   the dialog have been removed and replaced by a tree control on the left
+   side.  The tree currently has 3 sections: "Simple", "Advanced" and 
+   "IEEE-1394 Bus".  The new PGR logo is watermarked behind the tree.
+ - Fixed bug 3056 - Exposed more control of trigger and GPIO options on the
+   Trigger tab (including polarity and strobe).  Tab then renamed to 
+   GPIO/Trigger.
+ - Fixed bug 3204 - Allow multiple quadlet blocks of registers to be 
+   read and written.
+ - Fixed bug 3259 - Corrupted images when saving as .bmp
+ - Fixed bug 3285 - Current custom image mode was not reflected in the dialog.
+   If the camera is currently set in a Format 7 mode, it is now selected when
+   the Custom Image tab is loaded.
+ - Fixed bug 3321 - Colour cameras incorrectly reported as B/W in the Camera 
+   Selection dialog.
+ - Fixed bug 3323 - Flea sensor types were not being detected, reported unknown
+ - Fixed bug 3340 - Added a binary output to the Register tab to allow flipping 
+   of individual bits
+ - Fixed bug 3344 - Related to the information displayed in the status bar and
+   title bar.  There are now three options for the framerate displayed: 
+   "Requested", "Processed" and "Displayed" which are selected by clicking on 
+   the status bar or using the new View menu
+ - Fixed bug 3363 - Longer sensor names were cut off in the Camera Selection
+   dialog
+ - Fixed bug 3364 - Removed the About dialog and improved the PGR Version
+   Information dialog.
+ - Fixed bug 3366 - Added image and cursor information to the status bar.
+   The image size, cursor location, and 8-bit RGB value of the current pixel
+   are now displayed in the status bar if the FlyCap window is active. 
+   Controlled through the status bar or the View menu as well.
+ - Fixed bug 3250 - Save .bmp file with the proper size embedded in the header.
+
+1.6 Alpha 01 (24 May 2005)
+
+ - Fixed bug 3002 - Added Power Controls to the General Settings Tab
+ - Added Temperature Control to the General Settings Tab
+ - Added the Look Up Table tab to the Camera Control Dialog
+ - Expose the maximum bus speed in structure FlyCaptureInfoEx
+ - Add 4:1:1YUV8, 4:2:2YUV8, RGB16, Signed Mono16 and Signed RGB16 
+   pixel format options under format 7
+ - Fixed bug 3159 - the minimum value of the Current Packet size 
+   displyed in camera setting dialog should be equal to the value
+   of the 'Min' text edit box.
+ - Change the name of ExternalTriggerEx sample program to AsyncTriggerEx
+
+
+1.5 Beta 17 (17 February 2005)
+
+ - include Feb. 17, 2005 signed drivers.
+ - Fixed bug 2965 - Memory Access Violation in TimeSliceDemo when entering 
+   scroll mode.
+
+1.5 Beta 16 (3 February 2005)
+
+ - Fixed bug 2875 - FlyCap stream to avi from formats other than Y8.
+ - Fixed bug 2896 - YUV411 returns incorrect rowinc.
+ - Fixed "Two Fleas" hang bug.
+
+
+1.5 Release 15 (1 November 2004)
+ 
+ - Fixed bug 2659 - Packet size not updated in custom image tab for some 
+   cameras.
+ - Fixed bug 2660 - Error in % calculation in flycaptureStartCustomImage()
+
+
+1.5 Release Candidate 14 (22 October 2004)
+
+ - Fixed bug 2663 - Improvements to fixSP2g.exe user feedback.
+ - Fixed bug 2639 - Camera state error in Custom Image dialog.
+ - Implemented automatic FixSP2g.exe running dialog on installation.
+ - Implemented automatic internet registration during installation.
+
+
+1.5 Beta 13 (13 October 2004)
+ 
+ - Implemented bug 2247, bug 2547 - Refinements to the custom image dialog.
+ - Revisited bug 2342 - Made flycaptureSyncForLockNext() more robust.
+ - Implemented bug 1204 - Added new PGRFlyCaptureGUI function call, 
+   pgrcamguiShowInfoDlg() to display PGR libary and driver version information.
+   This dialog can be displayed by selecting Help->PGR Version Info in FlyCap
+   or TimeSliceDemo.
+ - Fixed bug 2609 - File saving dialog in FlyCap.
+ - Implemented bug 2568 - Explicit Dragonfly Express support in 
+   FlyCaptureCameraModel.
+ - Numerous driver fixes.
+ - Implemented bug 2514 - flycaptureStartLockNextCustomImagePacket().
+ - Fixed bug 2617 - Workaround for problems with USB devices generating 
+   bus reset events.
+ - Fixed bug 2598 - Absolute value writes not broadcast in FlyCaptureGUI.
+
+
+1.5 Beta 12 (28 September 2004)
+
+ - You must recompile your code to use this new release.
+ - Fixed bug 2163 - Various threadsafe issues with respect to resizing 
+   an internal buffer while doing colour processing from it.
+ - flycaptureGetCustomImageMaxPacketSize() has become 
+   flycaptureGetCustomImagePacketInfo(), please start using this function and
+   recompile your code.
+ - Implemented bug 2350 - Now checking system memory before allocating user
+   supplied number of buffers.
+ - More bug 2087 fixes.  FlyCaptureImageEvent has changed.
+ - Major changes to flycaptureSaveImage() and flycaptureConvertImage().  These
+   functions now both take a FlyCaptureImage.  Please see API documentation.
+ - flycaptureSaveImage() can now save images in PPM, PGM, BMP, and RAW formats.
+ - Implemented bug 2513 - yCap can now save images in PPM, PGM, BMP, and RAW 
+   formats.
+ - Implemented bug 2512 - Rewrote event size calculation code in ImageEventEx
+   to use the new API function flycaptureGetPacketInfo().
+ - Fixed bug 2520 - Custom image raw16 pixel format not colour processed 
+   properly.
+ - Fixed bug 2540 - Now checking invalid pixel formats for 
+   flycaptureStartCustomImage() and reporting FLYCAPTURE_INVALID_MODE when
+   appropriate.
+ - Fixed bug 2177 - The camera start functions will no longer guess at an 
+   appropriate video mode and frame rate if invalid parameters are passed in
+   use FLYCAPTURE_VIDEOMODE_ANY and FLYCAPTURE_FRAMERATE_ANY to start the 
+   camera in its current mode and framerate.
+ - Fixed bug 2556 - We were responding to some USB 2.0 bus notification
+   messages.
+ - Implemented bug 2504 - DriverControlGUI is now included in the distribution.
+   DriverControlGUI is an experimental program to provide driver selection
+   functionality.
+ - A note on 1394b and Windows XP Service Pack 2:  If you are a Dragonfly
+   Express user and are running Windows XP Service Pack 2, you must run the
+   fixSP2g.exe program in the 'bin' directory of the FlyCapture installation.
+   1394b support was removed by Microsoft for Service Pack 2, and the 
+   fixSP2g.exe program automatically downgrades the Windows 1394 drivers to 
+   their SP1 state.  This is a temporary kludge until Microsoft comes out with 
+   a hotfix to correct this problem.  This is PGR internal bug 2550 and bug
+   2442.
+
+
+1.5 Alpha 11 (7 September 2004)
+
+ - Implemented bug 1842.  We now report the low-level bus number and node 
+   number of devices in the FlyCaptureInfoEx structure.  This is only useful
+   if you have multiple 1394 cards in your machine.  New API function:
+   flycaptureBusEnumerateCamerasEx().
+ - Implemented bug 2342.  Completely new implementation of 
+   flycaptureSyncForLockNext().
+ - Fixed bug 2196 - Non 8-bit custom image modes now work.
+ - Implemented bug 2365 - flycaptureGetPacketInfo(), 
+   flycaptureGetCustomImagePacketInfo().
+ - Implemented bug 2379 - flycaptureStartCustomImagePacket().
+ - Fixed bug 2109 - Pause when flipping between property pages in camera
+   control dialog.
+ - Fixed bug 2412 - We now properly handle 1394b modes, including S800.  Please
+   note that S800 is currently broken in Windows XP Service Pack 2.  We do not 
+   recommend installing SP2.  This is PGR Bug 2442.
+
+
+1.5 Alpha 10 (22 June 2004)
+
+ - Fixed bug 1854 - SaveToImageEx enhancements.
+ - Fixed bug 1067 and bug 1475 - Initializing camera when in custom image mode
+   now behaves correctly.
+ - Implemented bug 1663 - The library now no longer saves camera setting to the
+   registry when flycaptureStop() is called, and no longer restores them 
+   upon flycaptureInitialize().  There are a new pair of buttons in the
+   camera settings dialog that now perform these functions.
+ - Fixed bug 2206 - SaveToAviEx couldn't compile without DDK installed.
+ - Implemented bug 2100 - FlyCap now drives home the fact that the user
+   has to hit F9 to start capturing images for an .avi.
+ - Fixed bug 2244 - Spurious bus reset messages in flycap.
+ - Fixed bug 2233 - Internal threads not shutting down immediately on
+   flycaptureDestroyContext().
+ - Addressed bug 1996 - Heap corruption probably because of bug 2233.
+ - New structure: FlyCaptureInfoEx.
+ - New API function: flycaptureGetInfo().
+
+
+1.5 Alpha 09 (27 May 2004)
+
+ - Implemented bug 853 - Save to BMPs.
+ - Implemented bug 2088 - Added flycaptureSaveImage() API function and
+   FlyCaptureImageFileFormat enumeration.  flycaptureWritePPM() has been
+   deprecated.  Please see API documentation for more information.
+ - Fixed bug 2170 - Errors with bus notification messages when multiple
+   contests in one process.
+
+
+1.5 Alpha 08 (11 May 2004)
+
+ - Implemented bug 2042.  flycaptureSetGrabTimeoutEx() now sets the timeout for 
+   flycaptureLockNext() as well as the lock latest and grab calls.
+ - Implemented bug 1423, bug 2087 - Partial image notification functionality.
+   New structures: FlyCaptureImageEvent New functions: 
+    - flycaptureInitializeNotify()
+	- flycaptureLockNextEvent()
+	- flycaptureWaitForImageEvent()
+	- flycaptureUnlockEvent()
+   Please see API documentation in flycaptureplus.h and the new example, 
+   ImageEventEx.  Please note that to use this functionality, you need a
+   hotfix from Microsoft. (It might be included in XP SP2, however.)  Please
+   context PGR for information on how to aquire this fix to the 1394 subsystem.
+
+
+1.5 Alpha 07 (5 May 2004)
+
+ - Fixed bug 1134 - We now respond to and pass FLYCAPTURE_MESSAGE_BUS_RESET
+   messages for all 1394 bus resets.
+ - Added a secondary frame rate to the FlyCap display.  The new frame rate (the
+   middle value in the status bar) indicates the display rate of the images.
+   The first frame rate, which also appears in the title bar of the app is the
+   camera grab rate.
+ - Implemented bug 1902 - Added FLYCAPTURE_DEPRECATED error code for deprecated
+   functions.
+ - Implemented bug 2095 - Implemented flycaptureSetGrabTimeoutEx().
+   flycaptureSetGrabTimeout() is now deprecated and will stop functioning soon.
+ - Fixed bug 2119 - Handle leak on start()/stop()/start().
+
+
+1.5 Alpha 06 (21 April 2004)
+
+ - A PixelFormat argument has been added to 
+   flycaptureStartLockNextCustomImage().  This must be provided.  Use 
+   flycaptureQueryCustomImage() to find out what pixel formats the camera 
+   supports.  Please see the CustomImageEx example for more information.
+ - Added .avi saving functionality to FlyCap.  To save an .avi clip, start the
+   camera with the red play button for recording mode.  Fill out the dialog,
+   then hit F9 or use the menu item to save an .avi clip.  Hit F9 again to save
+   another clip.  (it will clobber the file.)  To save a clip when in custom 
+   image mode, do the following:  Star the camera the normal way (green play
+   buttom), go into custom image mode using the dialog.  Stop the camera by
+   unclicking the green play button.  Click the red record play button.  You
+   are now in record mode with a custom image size.  This non-intuitiveness
+   is documented in PGR bug 2002 and will be corrected soon.
+ - .avi clip saving in FlyCap ignores the legacy 2GB limit on .avi files.  To
+   split avi files so that they can be played with legacy video players, we
+   recommend VirtualDub, http://virtualdub.org.  This is PGR bug 2001.
+ - Fixed bug 2009 - Removed sometimes-annoying error dialog boxes.
+ - Fixed bug 1893 - Better error reporting in SaveToAviEx when it can't write
+   to the destination path.
+ - The distributed version of timeSliceDemo now supports saving to .avi.
+ 
+
+1.5 Alpha 05 (17 February 2004)
+
+ - Fixed bug 1861 and bug 1862 - Trigger delay dialog now works.
+ - Various improvements and bug fixes.
+ - Implemented bug 1522 - LockNext functionality for custom image.  New API
+   function: flycaptureStartLockNextCustomImage().  Lock next and lock latest
+   modes both work for custom image (format 7.)
+
+
+1.5 Alpha 04 (16 January 2004)
+
+ - YOU MUST RECOMPILE YOUR CODE.
+ - Bug 1758 - Better support of IIDC 1.31 and Flea camera.
+ - Added Frame Rate feature.  
+ - Removed some deprecated functions and defines. 
+ - flycaptureGetCameraTrigger(), flycaptureSetCameraTrigger(), and
+   flycaptureSetCameraTriggerBroadcast() are all deprecated.  Please use
+   flycaptureGetTrigger(), flycaptureSetTrigger, and flycaptureQueryTrigger()
+   and flycaptureSetTriggerBroadcast().
+ - Fixed bug 1212 - The whitebalance property page will now update every 1/2
+   a second to reflect camera register changes.
+ - Implemented bug 1678 - Added support for multiple pixel types for Custom 
+   image mode.
+ - Addressed bug 1819 - Documentation and error reporting improvements.
+ - Fixed bug 1714.  Sync unit can now be used with PGR cameras again.
+ - Worked around bug 1681 - Corrupted frames at the beginning of .AVIs produced
+   by StreamToAviEx in release mode.
+   
+
+1.5 Alpha 03 (27 October 2003)
+
+ - Redesigned FlyCap structure so that the window is resizable and the user can
+   scroll around in the image.  This is bug 1660.
+ - Implemented YUV conversion routines for BGRU.
+ - FlyCap now defaults to using BGRU for destination colour images.  This
+   results in a performance increase.
+ - Fixed bug 1621 - flycaptureInitialize*() and flycaptureInitializePlus() can 
+   now be called multiple times for each created context.
+
+
+1.5 Alpha 02 (2 October 2003)
+
+ - Fixed bug 1602 and 1631 - Driver shutdown issues.
+ - Implemented fixes for bug 1495 - we can now shut down without triggering
+   the camera one last time when in trigger mode.
+ - Switched to new version numbering scheme.  This is 1.5 alpha 02, the
+   second 1.5 release of PGRFlYCapture.
+ - Switched the numbering scheme of PGRFLYCAPTURE_VERSION.  The first digit
+   is the major version, the second two are the minor version, the 4th is
+   the build type, and the last two are the build number.  105002 is 1.5 Alpha 
+   (0) 2.
+
+
+1.5 Alpha 27 (1 October 2003)
+
+ - This is the first 1.5 alpha release.  YOU MUST RECOMPILE YOUR CODE.  There
+   are several major API changes.
+ - Implemented extended framerates.
+ - Implemented bug 1183 - We now can use camera generated timestamps for 
+   the reported 1394 cycle timestamp information.
+ - Implemented bug 1603.  New API functions: flycaptureSetImageTimestamping(),
+   flycaptureGetImageTimestamping(), flycaptureParseImageTimestamp().  Please
+   see pgrflycaptureplus.h for details.
+
+
+1.4 Release 25 (10 September 2003)
+
+ - This is the first non-beta release of the FlyCapture 1.4 series.
+ - Redesigned camera selection dialog box.   
+
+
+1.4 Beta 24 (4 September 2003)
+
+ - Fixed bug 1587 - Y16 stippled images don't get automatically colour 
+                    processed.
+ - Implemented bug 1481 - We now report the sensor type for Scorpion (and 
+                          other) cameras.
+ - Implemented bug 1195 - We no longer support Dragonfly 640x240 50Hz mode
+                          using the standard dialog.  Please use Custom Image
+			  (Format 7) mode to access 640x240.
+ - Implemented bug 1570 - We now support all 1394 DCAM spec 1.30 modes.
+ - Implemented bug 1571 - Redesigned mode selection dialog box in 
+                          PGRCameraGUI.DLL.
+
+
+1.4 Beta 23 (28 August 2003)
+
+ - Implemented bug 1562 - The camera properties dialog will now refresh its
+                          values from the camera every 500ms.
+ - Implemented bug 1544 - Implemented flycapture property Ex functions to 
+                          access extended property information.
+ - Implemented bug 1560 - FlyCaptureGUI now supports extended property 
+                          information. (On/Off and OnePush).
+ - Implemented bug 454  - Minor optimizations to grab process.
+ - Implemented bug 1536 - Destination colour image buffer in FlyCap is now
+                          dynamically adjusted.
+ - Implemented bug 1077 and 1078 - We now report the stippledness of Y8 and Y16
+                                   images in FlyCaptureImage.  
+ - Bug 1520:  flycaptureGetLastError() has been deprecated and will be removed
+              in a future release.
+ - A new function, flycaptureConvertImage() replaces flycaptureConvertToBGR24(),
+   flycaptureStippledToBGR24(), and flycaptureStippledToBGRU32().
+   
+
+1.4 Beta 22 (31 July 2003)
+
+ - Fixed bug 1499 - Fix for bug 1495 caused unpredictable behaviour in Win2000
+                    and hang in XP.  Unfortunately this means that stopping the
+		    camera while it is blocked waiting for an image in external 
+		    trigger mode might cause problems.
+
+
+1.4 Beta 21 (30 July 2003)
+
+ - Fixed bug 1476 - Sorted out DCAM Y16 vs. PGR Y16.
+
+
+1.4 Beta 20 (29 July 2003)
+
+ This is the first 1.4 beta release.  Please report bugs to support@ptgrey.com
+
+ - Implemented bug 1167 - PGRCameraGUI.DLL and PGRCameraGUI.LIB have now been 
+                          replaced by PGRFlyCaptureGUI.DLL and 
+			  PGRFlYCaptureGUI.LIB.  YOU MUST RELINK YOUR 
+			  EXECUTABLES THAT USE PGRCAMERAGUI.DLL.  The API is
+			  the same, and it is still exposed by pgrcameragui.h.
+			  There will be some future deprecations in API functions.
+			  Please see pgrcameragui.h for details.  This change
+			  will encourage future compatibility between SDKs.
+ - Fixed bug 1359 - Grab occasionally returned error under heavy system load.
+ - Fixed bug 1220 - Start/grab/stop/start/grab failed on second grab.
+ - Fixed bug 1362 - Setting a format 7 ROI of size 0 caused error.
+ - Fixed bug 1333 - Need to set trigger before starting camera in 
+                    ExternalTriggerEx.
+ - Fixed bug 1039 - hitting tab in the camera properties dialog does nothing.
+ - Implemented bug 1388 - Crosstalk filter for colour Scorpion cameras with 
+			  Symagery sensor.  Added two new API functions:
+			  flycaptureSetImageFilters(), 
+			  flycaptureSetImageFilters(), which can be used to
+			  turn on and off this filter.  (And future ones.)
+ - Implemented bug 1488 - Added checkbox to Colour Processing property
+			  Sheet in FlyCaptureGUI.DLL to engage crosstalk
+			  (and other) filters.
+ - Fixed bug 1495 - Stopping the camera when in external trigger mode now 
+                    handled better.
+ - Implemented bug 1496 - FLYCAPTURE_DEVICE_BUSY now returned from block
+                          read/write functions.
+
+
+1.4 Alpha 19 (12 June 2003)
+
+ - Implemented a possible fix for bug 1200: Bandwidth exceeded error.
+ - Various other bug fixes and updates.
+
+
+1.4 Alpha 18 (28 February 2003)
+
+ - Fixed bug 1232 - Crash in VB IDE after calling .DLL.
+ - Other minor fixes.
+
+
+1.4 Alpha 17 (20 February 2003)
+
+ - Fixed bug 1209 - invalid assert().
+ - Fixed bug 1223 - Driver crash when process killed in debugger.
+
+
+1.4 Alpha 16 (3 February 2003)
+
+ - Fixed bug 1208 - Interleaved images with multiple cameras.
+ - Fixed bugs 751, 1198, 854: Colour processing algorithms working a lot 
+   better.
+ - Fixed bug 1202 - Frame rate change responsiveness in flycap.
+ - Fixed bug 1204 - Misleading version number no longer reported in about 
+   boxes.
+ - Fixed bug 1207 - PGRCameraGUI.DLL version number problems.
+
+
+1.4 Alpha 15 (23 January 2003)
+
+ - Continued fixes for low-level buffering.
+
+
+1.4 Alpha 14 (15 January 2003)
+
+ - Major changes in low-level buffer handling.  Please see pgrflycaptureplus.h
+   for details on how to use the new functionality.
+ - Added several new examples for pgrflycaptureplus.h functionality.
+
+
+1.4 Alpha 13 (18 December 2002)
+
+ - Extended functionality is now exposed in a new .h file: pgrflycaptureplus.h
+ - Implemented bug 1444 - Raw block reads and writes.
+
+
+1.4 Alpha 12 (12 December 2002)
+
+ - Implemented explicit support for a vendor.
+ - Lowlevel changes in grabbing and buffering.
+ - Various other fixes.
+
+
+1.4 Alpha 11 (10 December 2002)
+
+ - Fixed supported camera filter.
+ - Various other fixes.
+
+
+1.4 Alpha 10 (28 November 2002)
+
+ - Various minor updates.
+
+
+1.4 Alpha 9 (November 2002)
+
+ - Major changes in bus enumeration, multiple camera handling, and bus 
+   callbacks.  The following members are depricated: FLYCAPTURE_BUS_INVALID,
+   FLYCAPTURE_BUS_VALID, FlyCaptureBusNotificationCallback, and
+   flycaptureBusRegisterNotificationCallback().  
+   There is a new function for registering bus callbacks: 
+   flycaptureModifyCallback().
+ - The PGRCameraGUI camera selection dialog now updates itself when a camera
+   is plugged in or removed.
+ - Various other fixes.
+
+
+1.4 Alpha 8 (31 October 2002)
+
+ - Various custom image (Format 7) improvements and bug fixes.
+ - Fixed bug 870 - We now detect different camera types.  Implemented 
+   FlyCaptureCameraModel and improved FlyCaptureInfo.
+
+
+1.4 Alpha 7 (22 October 2002)
+
+ - Fixed bug 1070 - Now initializing all Dragonflys properly.
+ - Minor build and release fixes. 
+
+
+1.4 Alpha 6 (22 October 2002)
+
+ -  Major Custom image improvements.  Support for Dragonfly windowing.
+ -  Minor bug fixes and updates.
+
+
+1.4 Alpha 5 (27 Aug 2002)
+
+ -  Minor fix for Scorpion preview release.
+
+
+1.4 Alpha 4 (26 Aug 2002)
+
+ -  Fixed bug 989 - Fixed build flags.
+
+
+1.4 Alpha 3 (7 Aug 2002)
+
+ -  Implemented grab timeouts: flycaptureSetGrabTimeout() (bug 958).
+
+
+1.4 Alpha 2 (1 Aug 2002)
+
+ -  Minor fix for higher resolution colour cameras.
+
+
+1.4 Alpha 1 (28 June 2002)
+
+ - Implemented broadcasting for camera property manipulation.
+ - Implemented custom image size (Format 7) support.
+ - Further Scorpion support.
+ - Major organizational changes in codebase.
+
+
+1.3 Release 5 (30 May 2002)
+
+ - Fixes for 1.875 Hz at 640x480Y16. (Ticket 338)
+
+
+1.3 Release 4 (29 May 2002)
+
+ - Added Scorpion support.
+ - A few minor Bugfixes.
+
+
+1.3 Release 3 (16 April 2002)
+
+ - Minor driver bugfixes.
+ - Driver now recognizes AIM camera.
+ 
+
+1.3 Release 2 (6 March 2002)
+
+ - Minor bug fixes.
+
+
+1.3 Release 1 (22 Feb 2002)
+
+ - Windows XP now supported.
+ - Fixed bug 549 - Start/stop camera in flycap.
+ - Various bug fixes.
+
+
+1.2 Release 1 (23 Nov 2001)
+
+ - Tracking bug for this release: bug 620.
+ - Implemented Bug 618 - "Pan" and other higher register support.
+ - Implemented Bug 545 - Lowlevel timestamp support.
+ - Fixed Bug 584 - GUI aesthetics.
+ - Fixed Bug 582 - Deadlock when external trigger is on and stop() is called.
+ - Fixed Bug 565 - Not updating scrollbar in properties GUI after auto turned
+                   off.
+ - Implemented Bug 527 - Windows XP driver support.
+ - We now support 1024x768 Dragonfly modes.
+
+
+1.1 Beta 7 (18 Oct 2001)
+
+ - Implemented PGRCameraGUI .DLL - Bugs 484, 485.
+ - Standardized image conversion API calls to take an image structure instead
+   of other random arguments.
+ - Fixed bug 571 - Losing a couple of pixels in FlyCap.
+ - Fixed bug 549 - Start and stop grabbing.
+ - Fixed bug 496 - Destippling API.
+ - Fixed bug 588 - Added 640x240Y8 at 50Hz mode for Dragonflys
+ - Many more bugs fixed
+
+
+1.1 Beta 5
+
+ - Fixed bug 463 - Resetting camera modes upon .DLL attachment
+ - Fixed bug 426 - Bandwidth allocation problems.
+ - Fixed bug 547 - writePPM() problems.
+ - Fixed bug 509 - Software whitebalance member allocation.
+
+
+1.1 Beta 2
+
+ - Took whitebalance out of the bayer destippling step - it's now a separate
+   API call.
+ - Fixed bug 497 - Added 'save image' functionality to FlyCap.
+ - Numberous bug fixes.
+
+
+1.0 Release 4
+ 
+ - New faster bayer destippling code (bug 459, and others)
+ - Added FlyCaptureImage and grabImage2() (bug 391)
+ - Added timestamping (bug 403)
+ - Fixed bug 464 - Whitebalance issues.
+ - Fixed bug 481 - Minor spelling error.
+ - Fixed bug 486 - Camera Property callbacks in flycap.
+ - Fixed bug 456 - Y16 destippling.
+
+
+1.0 Release 3
+
+ - Fixed bug 441 - Y16 support.
+ - Fixed bug 435 - Y8 WritePPM support
+ - Fixed bug 436 - FlyCaptureTest Example naming in shortcut.
+ - Fixed bug 443 - The "Small Windows Problem"
+ - Fixed bug 430 - Custom Action .DLL missing on Win98 install.
+ - Fixed FlyCap Camera Properties dialog.
+
+
+1.0 Release 2
+
+ - Documentation updated.
+ - Various minor bugs.
+ - Fixed bug 432 - Default framerate in test program.
+ - Fixed bug 433 - One shot auto whitebalance for B&W cameras.
+
+
+1.0 Release 1
+
+ - Documentation updated
+ - Fixed bug 424 - Some dead code in FlyCap.
+ - Destippling of images partially implemented.
+ - Fixed bug 404 - Linking problem.
+ - Fixed bug 372 - Implemented one shot Auto white balance.
+ - Fixed bug 382 - Bayer processing.
+ - Fixed bug 420 - Bayer processing.
+ - Fixed bug 427 - Cleanup of pgrflycapture.h.
+
+
+1.0 beta 4
+
+ - Better upgrading of drivers during install.
+ - Fixed flycaptureBusEnumerateCameras().
+ - Added initial attempt at stippled image conversion for colour Dragonfly.
+
+
+1.0 beta 3
+
+ - Fixed bug 373 - Bus reset notification
+ - Fixed bug 363 - Return params for flycaptureGrabImage()
+ - Fixed bug 376 - Bad display for YUV + Dual processor machines
+
+
+Known Bugs
+----------
+
+ - The driver installation on Windows 98 might not work correctly on some
+   configurations.  Refer to the troubleshooting section of the manual to
+   install the driver manually.  (PGR bug # 431)  Windows 98 is not supported.
+
+
+This software is based in part on the work of the Independent JPEG Group.
+

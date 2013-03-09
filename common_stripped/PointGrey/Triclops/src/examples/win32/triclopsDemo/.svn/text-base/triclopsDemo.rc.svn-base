@@ -1,0 +1,530 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\triclopsDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#include ""PGRResource.rc""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\triclopsDemo.ico"
+IDR_DIGICLTYPE          ICON    DISCARDABLE     "res\\DemoDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_LIGHTBULB           BITMAP  DISCARDABLE     "res\\litebulb.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Connect to another camera",   ID_FILE_NEW_CAMERA_DOCUMENT
+        MENUITEM "Work with saved images",      ID_FILE_NEW_OFFLINE_DOCUMENT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "PGR Version Info...",         ID_APP_VERSION_INFO
+        MENUITEM "&About triclopsDemo...",   ID_APP_ABOUT
+    END
+END
+
+IDR_DIGICLTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Connect to another camera",   ID_FILE_NEW_CAMERA_DOCUMENT
+        MENUITEM "Work with saved images",      ID_FILE_NEW_OFFLINE_DOCUMENT
+        MENUITEM SEPARATOR
+        MENUITEM "Close",                       ID_FILE_CLOSE
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "Save/Load"
+    BEGIN
+        POPUP "Save Image..."
+        BEGIN
+            POPUP "Raw"
+            BEGIN
+                MENUITEM "Stereo",                      ID_FILE_SAVE_RAW_STEREO
+
+                MENUITEM "Center",                      ID_FILE_SAVE_RAW_CENTER
+                , GRAYED
+                MENUITEM "Right",                       ID_FILE_SAVE_RAW_RIGHT
+                , GRAYED
+                MENUITEM "Left",                        ID_FILE_SAVE_RAW_LEFT
+                , GRAYED
+            END
+            POPUP "Rectified"
+            BEGIN
+                MENUITEM "Center",                      ID_FILE_SAVE_RECTIFIED_CENTER
+                , GRAYED
+                MENUITEM "Right",                       ID_FILE_SAVE_RECTIFIED_RIGHT
+
+                MENUITEM "Left",                        ID_FILE_SAVE_RECTIFIED_LEFT
+
+                MENUITEM "Color Center",                ID_FILE_SAVE_RECTIFIED_COLOUR_CENTER
+                , GRAYED
+                MENUITEM "Color Right",                 ID_FILE_SAVE_RECTIFIED_COLOUR_RIGHT
+
+                MENUITEM "Color Left",                  ID_FILE_SAVE_RECTIFIED_COLOUR_LEFT
+
+            END
+            POPUP "Edge"
+            BEGIN
+                MENUITEM "Center",                      ID_FILE_SAVE_EDGE_CENTER
+                , GRAYED
+                MENUITEM "Right",                       ID_FILE_SAVE_EDGE_RIGHT
+
+                MENUITEM "Left",                        ID_FILE_SAVE_EDGE_LEFT
+
+            END
+            MENUITEM "Disparity",                   ID_FILE_SAVE_DISPARITY
+            MENUITEM "Stereo Input",                ID_FILE_SAVE_STEREO
+            , GRAYED
+        END
+        MENUITEM "Save point cloud As...",      ID_FILE_SAVE_POINTCLOUD
+        MENUITEM SEPARATOR
+        POPUP "Calibration file"
+        BEGIN
+            MENUITEM "Save default",                ID_FILE_SAVE_DEFAULT_CAL
+            MENUITEM "Save current",                ID_FILE_SAVE_CURR_CAL
+            MENUITEM "Load from file",              ID_FILE_LOAD_CAL
+        END
+        MENUITEM "Load stereo image",           ID_FILE_LOAD_STEREO
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Image Window",           ID_WINDOW_NEW
+        MENUITEM "New 3d Window",               ID_WINDOW_NEW3D
+        MENUITEM SEPARATOR
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "PGR Version Info...",         ID_APP_VERSION_INFO
+        MENUITEM "&About triclopsDemo...",   ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About triclopsDemo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "triclopsDemo",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004\nPoint Grey Research Inc.",
+                    IDC_STATIC,40,25,119,23
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TIP DIALOG DISCARDABLE  0, 0, 231, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tip of the Day"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,12,11,207,123
+    LTEXT           "Some String",IDC_TIPSTRING,28,63,177,60
+    CONTROL         "&Show Tips on StartUp",IDC_STARTUP,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,13,146,85,10
+    PUSHBUTTON      "&Next Tip",IDC_NEXTTIP,109,143,50,14,WS_GROUP
+    DEFPUSHBUTTON   "&Close",IDOK,168,143,50,14,WS_GROUP
+    CONTROL         "",IDC_BULB,"Static",SS_BITMAP,20,17,190,111
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,2,1,10
+ PRODUCTVERSION 3,2,1,10
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Built 31 March 2007\0"
+            VALUE "CompanyName", "Point Grey Research Inc.\0"
+            VALUE "FileDescription", "triclopsDemo MFC Application\0"
+            VALUE "FileVersion", "3, 2, 1, 10\0"
+            VALUE "InternalName", "triclopsDemo\0"
+            VALUE "LegalCopyright", "Copyright © Point Grey Research Inc. 2005\0"
+            VALUE "LegalTrademarks", "triclops® is a registered Trademark of Point Grey Research Inc.\0"
+            VALUE "OriginalFilename", "triclopsDemo.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Point Grey Research Triclops Stereo Vision System\0"
+            VALUE "ProductVersion", "3, 2, 1, 10\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TIP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "triclopsDemo"
+    IDR_DIGICLTYPE          "\nDigicl\nDigicl\n\n\ntriclopsDemo.Document\nDigicl Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "triclopsDemo"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_CLOSE           "Close the active document\nClose"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW3D         "Open a new 3d (points) window\nOpen a new 3d (points) window"
+    ID_WINDOW_NEW3D_MODEL   "Open a new 3d (points) window for 3d model\nOpen a new 3d (points) window for 3d model"
+    ID_FILE_SAVE_RAW_CENTER    "Save center raw image.\nSave center raw image."
+    ID_FILE_SAVE_RAW_RIGHT  "Save Right raw image.\nSave Right raw image."
+    ID_FILE_SAVE_RAW_LEFT   "Save Raw left image.\nSave Raw left image."
+    ID_FILE_SAVE_RECTIFIED_CENTER 
+                            "Save Rectified center image.\nSave Rectified center image."
+    ID_FILE_SAVE_RECTIFIED_RIGHT 
+                            "Save Rectified right image.\nSave Rectified right image."
+    ID_FILE_SAVE_RECTIFIED_LEFT 
+                            "Save Rectified left image.\nSave Rectified left image."
+    ID_FILE_SAVE_RECTIFIED_COLOUR_CENTER 
+                            "Save Rectified colour center image.\nSave Rectified colour center image."
+    ID_FILE_SAVE_RECTIFIED_COLOUR_RIGHT 
+                            "Save Rectified colour right image.\nSave Rectified colour right image."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    CG_IDS_TIPOFTHEDAY      "Displays a Tip of the Day."
+    CG_IDS_TIPOFTHEDAYMENU  "Ti&p of the Day..."
+    CG_IDS_DIDYOUKNOW       "Did you know..."
+    CG_IDS_FILE_ABSENT      "Tips file does not exist in the prescribed directory"
+    CG_IDP_FILE_CORRUPT     "Trouble reading the tips file"
+    CG_IDS_TIPOFTHEDAYHELP  "&Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_SAVE_RECTIFIED_COLOUR_LEFT 
+                            "Save Rectified colour left image.\nSave Rectified colour left image."
+    ID_FILE_SAVE_EDGE_CENTER   "Save Edge center image.\nSave Edge center image."
+    ID_FILE_SAVE_EDGE_RIGHT "Save Edge right image.\nSave Edge right image."
+    ID_FILE_SAVE_EDGE_LEFT  "Save Edge left image.\nSave Edge left image."
+    ID_FILE_SAVE_DISPARITY  "Save Disparity image.\nSave Disparity image."
+    ID_FILE_SAVE_STEREO     "Save Stero image.\nSave Stereo image."
+    ID_FILE_LOAD_STEREO     "Load Stereo image.\nLoad Stereo image."
+    ID_FILE_SAVE_POINTCOLOUR "Save point cloud.\nSave point cloud."
+    ID_FILE_SAVE_DEFAULT_CAL 
+                            "Save default calibration file.\nSave default calibration file."
+    ID_FILE_SAVE_CURR_CAL   "Save current calibration file.\nSave current calibration file."
+    ID_FILE_LOAD_CAL        "Load calibration from file.\nLoad calibration from file."
+    ID_APP_VERSION_INFO     "Show PGR version information dialog.\nShow PGR version information dialog."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_SAVE_RAW_STEREO "Save Stereo raw image.\nSave Stereo raw image."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\triclopsDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+#include "PGRResource.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
