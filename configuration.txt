@@ -1,0 +1,21 @@
+Origin_Latitude = 0
+Origin_Longitude = 0
+
+Costmap_XUnitSize = .1
+Costmap_YUnitSize = .1
+
+GPS_SerialPort = COM11
+Compass_SerialPort = COM6
+
+Mission_File = C:\IGVC\mission.txt
+Boundary_File = C:\IGVC\boundary.txt
+
+P_Left = 0.5
+I_Left = 0.07
+P_Right = 0.5
+I_Right = 0.07
+
+Translational_Speed = 2.24
+
+IPC_Server = localhost
+
