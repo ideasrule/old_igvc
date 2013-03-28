@@ -1,0 +1,23 @@
+Origin_Latitude = 0
+Origin_Longitude = 0
+
+Costmap_XUnitSize = .1
+Costmap_YUnitSize = .1
+
+GPS_SerialPort = COM2
+Compass_SerialPort = COM3
+
+Mission_File = C:\IGVC_2009\mission.txt
+//Boundary_File = C:\IGVC_2009\boundary.txt
+
+P_Left = 0.4
+I_Left = 0.05
+P_Right = 0.4
+I_Right = 0.05
+
+Translational_Speed = 2.24
+
+IPC_Server = 192.168.1.107
+
+Stereo_Max_Range = 25.0
+Stereo_Min_Range = .15
